@@ -29,8 +29,8 @@
 
 ##### Selector de Id
 
-- Por **ID** se pone **#**.
-- Se puede compartir una clase con varias: etiquetas,....etc
+- Por **ID** se pone **#**.     
+- Se puede compartir una clase con varias: etiquetas,....etc    
 ```css
     #descripcion{
         border: 2px solid black;
@@ -42,17 +42,32 @@
     border: 2px solid black;
     padding:15px;
     }
-```
+```   
+> Un *nombre de ID* solo se puede usar **una vez** en **un solo sitio**.        
+
+
 
 ##### Selector de Clase
 
-- Selecciona por Clase. SE pone **.**.
+- Selecciona por Clase. SE pone **.**.      
 ```css
-
-```
-
+    .parrafo{
+    color: rgb(20, 45, 155);
+    background-color: darkcyan;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+```          
+> Un selector de *clase* se puede usar **muchas** veces.
+> Se puede usar varias clases para un mismo obj seleccionado.
 
 
 ##### Selector de Atributo
+
+- 
+```css
+    
+```
 
 

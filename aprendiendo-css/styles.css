@@ -23,17 +23,23 @@ footer a{
 /* Selector de Id */
 #descripcion,
 #titulo{
-    border: 2px solid black;
+    border: 2px dashed black;
     padding:15px;
+    background-color: darkcyan;
 }
 #titulo{
     color: rgb(88, 8, 8);
     border: 2px dashed rgb(78, 3, 3);
 }
-
-
 /* Selector de Clase */
-
+.parrafo{
+    color: rgb(20, 45, 155);
+    background-color: darkcyan;
+    font-style: italic;
+    /* text-decoration: underline; */
+    font-weight: bold;
+    padding: 10px;
+}
 
 
 /* Selector de atributo */

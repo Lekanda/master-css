@@ -2,7 +2,7 @@
 
 > *Fecha Inicio 18-12-2020*
 
-
+### Selectores
 |   Forma	|   Sintaxis	|
 |---	|---	|
 |   Etiqueta	|   Nada	|
@@ -17,7 +17,10 @@
     border: 2px solid black;
     padding:15px;
 }
-```
+```   
+
+
+
 
 
 
