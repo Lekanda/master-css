@@ -58,7 +58,7 @@ input[type="text"]{
 }
 input[type=submit]{
     background: green;
-    color: greenyellow;
+    color: #0a5306;
     font-weight: bold;
     font-size: 18px;
     text-transform: uppercase;
