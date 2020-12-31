@@ -27,16 +27,32 @@
     }
 ```
 
+##### Selector de Id
+
+- Por **ID** se pone **#**.
+- Se puede compartir una clase con varias: etiquetas,....etc
+```css
+    #descripcion{
+        border: 2px solid black;
+        padding:15px;
+    }
+    /* SE puede utilizar para mas de uno */
+    #descripcion,
+    #titulo{
+    border: 2px solid black;
+    padding:15px;
+    }
+```
 
 ##### Selector de Clase
 
-- Selecciona por Clase
-    - SE pone **.**
+- Selecciona por Clase. SE pone **.**.
+```css
+
+```
 
 
 
 ##### Selector de Atributo
 
 
-
-##### Selector de Id

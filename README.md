@@ -10,6 +10,27 @@
 |   Id	|   #	|
 
 
+- Se puede compartir una clase con varias: etiquetas,....etc
+```css
+    #descripcion,
+    #titulo{
+    border: 2px solid black;
+    padding:15px;
+}
+```
+
+
+
+
+
+
+
+
+
+```css
+
+```
+
 
 - Enlace a Wiki
 - Enlace a GitHub-Pages

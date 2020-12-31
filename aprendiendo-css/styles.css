@@ -20,9 +20,16 @@ footer a{
     color: cadetblue;
 }
 
-
 /* Selector de Id */
-
+#descripcion,
+#titulo{
+    border: 2px solid black;
+    padding:15px;
+}
+#titulo{
+    color: rgb(88, 8, 8);
+    border: 2px dashed rgb(78, 3, 3);
+}
 
 
 /* Selector de Clase */
