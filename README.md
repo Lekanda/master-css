@@ -19,8 +19,8 @@
 }
 ```   
 
-
-
+![Pointers](Apuntes/ImagenesApoyo/PointersEnCSS.jpg)      
+> Tipos de Pointers
 
 
 

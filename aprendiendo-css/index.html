@@ -8,9 +8,17 @@
 </head>
 <body>
     <h1 id="titulo" >Master en CSS</h1>
-    <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Temario</a></li>
+    <ul id="menu">
+        <li>
+            <a href="#">Inicio</a>
+        </li>
+        <li>
+            <a href="#">Temario</a>
+            <ul>
+                <li><a href="#">HTML</a></li>
+                <li><a href="">CSS</a></li>
+            </ul>
+        </li>
         <li><a href="#">Reseñas</a></li>
         <li><a href="#">Contacto</a></li>
     </ul>
@@ -27,6 +35,17 @@
             Etiam fringilla quam tempor ante cursus, eu pellentesque ante condimentum. Integer pellentesque orci augue, vitae sodales quam molestie eget. Duis accumsan consequat erat, vel elementum magna vehicula sit amet. Nunc sodales neque nunc, ut placerat odio iaculis quis. Morbi aliquet tempus ex et aliquet. Morbi ac eros laoreet, lacinia neque quis, bibendum libero. Curabitur lectus metus, aliquet nec volutpat quis, commodo ut quam. Nam efficitur consectetur justo, id posuere ante fringilla ac.
 
         </p>
+    </div>
+    <div id="usuario">
+        <form action="">
+            <label for="">Nombre</label>
+            <input type="text" name="nombre"/>
+
+            <label for="">Apellidos</label>
+            <input type="text" name="apellidos"/>
+
+            <input type="submit" value="Enviar"/>
+        </form>
     </div>
     <footer>
         Todos los derechos reservado &copy; <a href="https://github.com/Lekanda/master-css/wiki/Selectores">Andres Bernaola</a>
