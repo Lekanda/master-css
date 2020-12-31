@@ -65,9 +65,73 @@
 
 ##### Selector de Atributo
 
-- 
+- Por el tipo de atributo que sea.   
 ```css
-    
+    /* Selector de atributo */
+    #usuario form{
+        border: 5px solid blue;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 15px;
+    }
+    #usuario form *{
+        display: block;
+    }
+    /* Este es el ejemplo de por atributo */
+    input[type="text"]{
+        margin-bottom: 13px;
+        padding: 6px;
+        width: 300px;
+    }
+    input[type=submit]{
+        background: green;
+        color: greenyellow;
+        font-weight: bold;
+        font-size: 18px;
+        text-transform: uppercase;
+        border: 2px solid rgb(0, 63, 10);
+        width: 150px;
+        padding: 6px;
+        cursor: pointer;
+    }
 ```
 
+##### Selector Hijo
+
+- Para seleccionar poniendo la ruta exacta de lo que se quiere hacer.   
+```css
+/* Selector Hijo */
+#menu > li > ul > li > a{
+    font-size: 20px;
+    color: rgb(247, 8, 8);
+    text-decoration: none;
+}
+
+```      
+
+
+##### Prioridad en CSS.
+
+- CSS lee de arriba a abajo.   
+- Cuanto mas especifica sea  una regla tiene mas prioridad.  
+```css
+    /* Prioridad */
+        #saludo h1{
+        background: blueviolet; 
+        }
+        h1{
+            background: blue;
+        }
+```
+> En este caso hara **#saludo h1**. Es mas especifica.
+
+- Sí queremos que algo predomine por encima de los demas:    
+```css
+        h1{
+            background: blue !important;
+        }
+```    
+> **!important** hace que esa norma prevalezca por encima de las demas.
+
+- Sí ponemos **!important** en varios , prioriza por las normas de antes.
 

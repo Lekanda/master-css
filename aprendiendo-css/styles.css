@@ -68,12 +68,18 @@ input[type=submit]{
     cursor: pointer;
 
 }
-
-
 /* Selector Hijo */
 #menu > li > ul > li > a{
     font-size: 20px;
     color: rgb(247, 8, 8);
     text-decoration: none;
+}
+
+/* Prioridad */
+#saludo h1{
+   background: blueviolet; 
+}
+h1{
+    background: blue !important;
 }
 
