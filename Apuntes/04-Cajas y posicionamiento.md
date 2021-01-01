@@ -34,6 +34,28 @@
 
 > Para poder posicionar bien los enlaces y otros, se deben meter dentro de un *div*. **Si no, no deja**. Deja dimensionar pero no posicionar.
 
+##### max-width
+
+- Max tamaño de ancho       
+`max-width: 1000px ;`     
+> Igual con **min**.
+
+
+##### clearfix
+
+- En HTML ponemos el div , en el que no queremos que herede el flotante.
+```html
+    <!-- Limpiar los flotados -->
+    <div class="clearfix"></div> 
+```
+
+- En CSS ponemos los estilos.
+```css
+.clearfix{
+    float: none;
+    clear: both;
+}
+```
 
 
 

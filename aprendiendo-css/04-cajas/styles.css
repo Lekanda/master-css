@@ -6,6 +6,10 @@ body{
     background-color: ivory;
     padding: 40px;
 }
+.cajas{
+   max-width: 1000px ;
+   border: 1px solid black;
+}
 .caja{
     display: block;
     width: 250px;
@@ -32,7 +36,13 @@ body{
             Apuntes
 - Para centrar el txt dentro del div, hacemos que la linea tenga los mismos px que el div de alto. Pero hay que restar el tamaño del txt.
 
-
+- Flotados: Al ponerle a un div un flotado, los otros que estan por detras tambien van a coger ese flotado. Para impedir esto usamos
+    - <div class="clearfix"></div> en el HTMLen el div que no queremos que herede los flotantes.
+    - En css:
+        .clearfix{
+            float: none; => No hay flotantes
+            clear: both; => Limpia por izq y drch. Se puede poner left,right,both
+        }
 
 
 
