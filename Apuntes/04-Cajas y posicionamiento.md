@@ -18,6 +18,8 @@
 
 > **El div no varia su tamaño lo hace el padding, margin y border.**
 
+> `margin: 0px auto;` => Centra el bloque
+
 
 #### Posicionamiento de cajas
 

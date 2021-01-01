@@ -28,7 +28,7 @@
 `background: red imagen repeticion posicion`
 
 
-
+> `margin: 0px auto;` => Centra el bloque
 
 
 
