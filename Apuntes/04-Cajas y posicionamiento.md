@@ -33,6 +33,7 @@
 - Dice que comportamiento tiene que tener
     - **block**: Se comportan como bloques .Este es el mas normal.
     - **inline**:Se comporta como una linea de texto ->
+    - **inline-block**: Pone todos en linea horizontal. Quita la decoracion
 
 > Para poder posicionar bien los enlaces y otros, se deben meter dentro de un *div*. **Si no, no deja**. Deja dimensionar pero no posicionar.
 

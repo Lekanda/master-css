@@ -3,8 +3,8 @@
 2. crear cont general para todo(X)
 3. header, menu, barra lateral, seccion pral, elementos en cont pral y footer(X)
 4. Conte general 1200px ancho. centrado(X)
-5. header: ocupa el 100% ancho y tener un txt grande centrado
-6. menu: los elemntos uno al lado del otro.
+5. header: ocupa el 100% ancho y tener un txt grande centrado(X)
+6. menu: los elemntos uno al lado del otro.(X)
 7. el  contenido pral debe tener un ancho de 70%
 8. El cont debe ser una cuadricula con 4 lineas de 2 cajas
 9. La barra lateraldebe tener un ancho del 30%,
@@ -31,9 +31,36 @@ header{
     height: 100px;
     background: khaki;
     text-align: center;
-    border: 1px solid rgb(80, 78, 0);
+    /* border: 1px solid rgb(80, 78, 0); */
     line-height: 80px;
 }
-.menu a{
-    text-decoration: none;
+.menu{
+    background: khaki;
+}
+.menu ul li{
+    /* display: inline-block; */
+    display: block;
+    float:left;
+    border-right: 1px solid khaki;
+    
+}
+.menu ul li a{
+    padding: 15px;
+    color:rgb(134, 81, 38);
+    display: block;
+}
+
+.menu ul li:hover{
+    background-color: rgb(160, 153, 92);
+    transition: 1300ms;
+    cursor: pointer;
+}
+
+.menu ul li:hover a{
+    color: rgb(9, 16, 114);
+}
+
+.clearfix{
+    float: none;
+    clear: both;
 }
