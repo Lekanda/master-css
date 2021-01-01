@@ -1,4 +1,4 @@
-# Master en CSS por Vistor Robles
+# Master en CSS por Victor Robles
 
 > *Fecha Inicio 18-12-2020*
 
@@ -19,8 +19,13 @@
 }
 ```   
 
+###### Pointers del Raton
 ![Pointers](Apuntes/ImagenesApoyo/PointersEnCSS.jpg)      
 > Tipos de Pointers
+
+
+###### Estructura de un BACKGROUND
+`background: red imagen repeticion posicion`
 
 
 
