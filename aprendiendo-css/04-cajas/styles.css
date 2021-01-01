@@ -4,23 +4,30 @@
 }
 body{
     background-color: ivory;
+    padding: 40px;
 }
-#caja1,
-#caja2{
+.caja{
+    display: block;
     width: 250px;
     height: 250px;
     background: lawngreen;
     border: 5px solid red;
     margin: 15px;
     padding: 20px;
+    float: left;
 }
-p{
+.caja p{
     font-weight: bold;
     text-align: center;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 230px;
 }
+.clearfix{
+    float: none;
+    clear: both;
+}
+
 /*
             Apuntes
 - Para centrar el txt dentro del div, hacemos que la linea tenga los mismos px que el div de alto. Pero hay que restar el tamaño del txt.
