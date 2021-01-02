@@ -16,24 +16,24 @@
     padding: 0px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    background: #bfeed1;
 }
 
 #general{
     width: 1200px;
     margin: 0px auto;
     /* margin-top: 20px; */
-    background: #bfeed1;
+    background: transparent;
 }
 #contenido{
     width: 70%;
     float:left;
-    background: rgb(191, 238, 209);
+    background:#ffffff;
 }
 .lateral{
-    width: 30%;
+    width: 29%;
     float: left;
-    background: #bfeed1;
+    background: #ffffff;
+    border: 1px solid red;
     min-height: 500px;
     text-align: center;
 }
@@ -49,30 +49,33 @@
     float: left;
     margin: 20px;
     margin-left: 43px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 40%;
     height: 250px;
-    /* background: #2e9b58; */
     color: #04531659;
     text-align: center;
     line-height: 200px;
     text-transform: uppercase;
     box-shadow: 5px 5px 15px #04531659;
 }
+#contenido .caja>h2{
+    background: transparent;
+}
 
 .sombra-interior{
-    box-shadow: 5px 5px 15px blue inset !important;
+    box-shadow: 5px 5px 25px #04531659 inset !important;
 }
 
 header{
     width: 100%;
     height: 100px;
-    background: #bfeed1;
+    background: #063be7;
+    color: rgb(135, 180, 222);
     text-align: center;
     line-height: 80px;
 }
 footer{
-    background:#bfeed1;
+    background: #ffffff;
     width: 100%;
     height: 70px;
     line-height: 70px;
@@ -84,31 +87,39 @@ footer{
     border-top: 4px solid #3d5d4924;
 }
 .menu{
-    background: #bfeed1;
+    background:transparent;
 }
+nav .menu{
+    height: 74;
+}
+/* .menu > ul{
+    background: transparent;
+    height: 74;
+
+} */
 .menu ul li{
     /* display: inline-block; */
     display: block;
     float:left;
-    border-right: 1px solid rgb(14, 85, 29);
+    /* border-right: 1px solid rgb(14, 85, 29); */
     
 }
 .menu ul li a{
     display: block;
     padding: 15px;
-    color:#057d214f;
-    text-shadow: 1px 1px 2px rgb(9, 97, 39) ;
+    color:#0508aa;
     font-size: 25px;
 }
 
 .menu ul li:hover{
-    /* background-color: rgb(160, 153, 92); */
-    transition: 1300ms;
+    text-shadow: 0px 1px 3px rgb(1, 141, 255) ;
+    /* background: #cfcfcf; */
+    transition: 375ms;
     cursor: pointer;
 }
 
 .menu ul li:hover a{
-    color: rgb(9, 16, 114);
+    color: rgb(96, 138, 255);
 }
 
 .clearfix{
