@@ -51,7 +51,33 @@
     4. 
 
 > Para quitar la barra de scroll horizontal:
-        `overflow-y:scroll`
+        ```css
+        overflow-y:scroll
+        ```
+
+###### Posicion absoluta
+
+- Se puede posicionar completamente.
+- Mediante **px** o **%**
+```css
+    .libre{
+        position: absolute;
+        top: 250px;
+        left: 10%;
+        border: 1px solid black;
+        background-color: red;
+        color: white;
+        width: 50px;
+        height: 50px;
+        font-size: 13px;
+    }
+
+```
+
+
+
+
+
 
 
 ```css
