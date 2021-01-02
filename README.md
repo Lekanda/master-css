@@ -42,8 +42,16 @@
     border-radius: 5px 5px 5px 5px;
 ```
 
+###### overflow
 
+- Cuando los elementos de una caja son mas grandes que la caja. Hay opciones:
+    1. **hidden**: Borra lo que no entra.
+    2. **visible**: Es visible.
+    3. **scroll**: Hace scroll.
+    4. 
 
+> Para quitar la barra de scroll horizontal:
+        `overflow-y:scroll`
 
 
 ```css
