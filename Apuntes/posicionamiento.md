@@ -32,6 +32,6 @@
 ```
 
 
-###### POSICION FIJA
+###### POSICION FIJA(fixed)
 
-- 
+- Aconpaña al hacer scroll.
