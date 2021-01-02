@@ -55,7 +55,7 @@
         overflow-y:scroll
         ```
 
-###### Posicion absoluta
+###### Posicion absoluta y fija
 
 - Se puede posicionar completamente.
 - Mediante **px** o **%**
@@ -73,6 +73,9 @@
     }
 
 ```
+> La *fija* igual pero en `position: fixed;`
+
+
 
 
 
