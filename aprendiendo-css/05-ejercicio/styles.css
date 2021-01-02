@@ -90,19 +90,19 @@ footer{
     /* display: inline-block; */
     display: block;
     float:left;
-    /* border-right: 1px solid khaki; */
+    border-right: 1px solid rgb(14, 85, 29);
     
 }
 .menu ul li a{
+    display: block;
     padding: 15px;
     color:#057d214f;
-    display: block;
     text-shadow: 1px 1px 2px rgb(9, 97, 39) ;
     font-size: 25px;
 }
 
 .menu ul li:hover{
-    background-color: rgb(160, 153, 92);
+    /* background-color: rgb(160, 153, 92); */
     transition: 1300ms;
     cursor: pointer;
 }
