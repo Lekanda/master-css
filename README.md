@@ -31,6 +31,17 @@
 > `margin: 0px auto;` => Centra el bloque
 
 
+###### border-radius   
+
+- general
+```css
+    border-radius: 5px ;
+```
+- Las cuatro esquinas
+```css
+    border-radius: 5px 5px 5px 5px;
+```
+
 
 
 
@@ -38,7 +49,5 @@
 ```css
 
 ```
-
-
 - Enlace a Wiki
 - Enlace a GitHub-Pages

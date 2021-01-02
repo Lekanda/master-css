@@ -50,6 +50,7 @@
     margin: 20px;
     margin-left: 43px;
     /* border: 1px solid black; */
+    border-radius: 50px 5px 5px 50px;
     width: 40%;
     height: 250px;
     color: #04531659;
