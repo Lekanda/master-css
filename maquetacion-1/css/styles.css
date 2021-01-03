@@ -1,4 +1,6 @@
-/* FUENTES */
+/**********************************/
+/************ FUENTES *************/
+/**********************************/
 @font-face{
     font-family: "nevis";
         src:url("fonts/nevis.eot"),
@@ -9,7 +11,10 @@
     font-weight: normal;
     font-style: normal;
 }
-/* Estilos generales */
+
+/**********************************/
+/********** Estilos generales *******/
+/**********************************/
 *{
     padding: 0px;
     margin: 0px;
@@ -17,6 +22,8 @@
 body{
     background-image: url("../img/paven.png");
 }
+
+
 
 
 
@@ -56,7 +63,6 @@ header h1{
 }
 header h1:hover{
     text-shadow: 0px 2px 3px #333333 , 0px 0px 7px  #70b231;
-    
 }
 header h1 a{
     color: #70b231;
@@ -115,7 +121,6 @@ nav > ul > li:hover{
 /*****************************/
 /***** MENU DESPLEGABLE ******/
 /*****************************/
-
 nav > ul > li >ul{
     display: none;
     position: absolute;
@@ -142,4 +147,42 @@ nav > ul > li >ul > li a{
 nav > ul > li >ul > li:hover{
     box-shadow: 2px 5px 6px#3c5f1c inset, -2px -5px 6px #3c5f1c inset;
     background: #40790c;
+}
+
+
+
+
+
+
+/*************************************/
+/********** Contenido ***************/
+/***********************************/
+#content{
+    width: 1800px;
+    min-height: 1500px;
+    margin: 0px auto;
+}
+/* Barra lateral */
+#aside{
+    width: 200px;
+    float: left;
+    margin: 30px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 2px 4px 4px #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#aside .widget{
+    display: block;
+    width: 180px;
+    margin: 5px auto;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    border-bottom: 1px dashed #333333;
+}
+#aside .widget:last-child{
+    margin-bottom: 20px;
+
 }
