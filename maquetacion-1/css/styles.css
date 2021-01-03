@@ -140,6 +140,6 @@ nav > ul > li >ul > li a{
     color: #005218;
 }
 nav > ul > li >ul > li:hover{
-    box-shadow: 2px 5px 6px#325e09 inset, -2px -5px 6px #325e09 inset;
-    /* background: mediumseagreen; */
+    box-shadow: 2px 5px 6px#3c5f1c inset, -2px -5px 6px #3c5f1c inset;
+    background: #40790c;
 }
