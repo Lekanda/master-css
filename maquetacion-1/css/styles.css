@@ -33,6 +33,12 @@ a:visited{
 a:hover{
     color: #285616;
 }
+.red{
+    color: red !important;
+}
+.blue{
+    color: blue !important;
+}
 /*** Formularios ***/
 input[type="text"],
 input[type="password"],
