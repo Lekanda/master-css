@@ -11,6 +11,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face{
+    font-family: "fajala";
+        src:url("fonts/FjallaOne-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 
 /****************************-*********/
 /********** Estilos generales *******/
@@ -227,7 +233,6 @@ nav > ul > li >ul > li:hover{
 }
 /* Barra lateral */
 #aside, #frase{
-    clear: both;
     width: 240px;
     float: left;
     margin: 30px;
@@ -237,6 +242,7 @@ nav > ul > li >ul > li:hover{
     font-family: Arial, Helvetica, sans-serif;
 }
 #frase{
+    clear: both;
     width: 220px;
     padding: 10px;
     font-size: 14px;
@@ -262,7 +268,7 @@ nav > ul > li >ul > li:hover{
     text-align: center;
     padding-top: 2px;
     padding-bottom: 2px;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
     background: #D9D9D9;
     border: 1px solid #ccc;
     border-left: none;
@@ -282,13 +288,13 @@ nav > ul > li >ul > li:hover{
 #aside div a{
     display: block;
     width: 95%;
-    margin-top: 5px;
+    margin-top: 1px;
     margin-bottom: 5px;
 }
 #aside div input[type="button"],
 #aside div input[type="submit"],
 #aside div button{
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 #aside input,
@@ -296,7 +302,48 @@ nav > ul > li >ul > li:hover{
     margin: 0px auto;
     text-align: center;
 }
+.clearfix{
+    float: none;
+}
 
 
+/* Secciones */
+#section{
+    float: right;
+    width: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 20px;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+#section .titulo{
+    font-family: "fajala";
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+#section section{
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 4px #C9C9C9;
+    color: #666666;
+    font-size: 16px;
+    overflow: hidden;
+}
+#section .article{
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#section .date{
+    font-size: 13px;
+
+}
 
 
