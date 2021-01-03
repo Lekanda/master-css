@@ -31,20 +31,20 @@ header a{
 header #logotipo{
     width: 502px;
     margin: 0px auto;
-    padding: 20px;
+    padding: 32px;
 }
 header #logotipo img{
     display: block;
     text-align: center;
     margin: 0px auto;
-    width: 219px;
+    width: 180px;
 }
 header h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     font-family: "nevis";
     letter-spacing: 4px;
-    margin-top: 10px;
+    margin-top: -7px;
     text-shadow: 0px 2px 1px #333333;
     transition: all 300ms;
 }
@@ -54,4 +54,39 @@ header h1:hover{
 }
 header h1 a{
     color: #70b231;
+}
+
+
+
+/* Barra del Menu de Navegacion */
+nav{
+    margin-top: 116px;
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    box-shadow: 0px 0px 2px gray;
+}
+nav ul{
+    list-style: none;
+    text-decoration: none;
+    margin: 0px auto;
+    width: 1285px;
+}
+nav > ul > li{
+    line-height: 60px;
+    float: left;
+    border-right: 1px solid grey;
+}
+nav > ul > li a{
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+nav >ul>li>a:first-child{
+    border-left: 1px solid grey;
 }
