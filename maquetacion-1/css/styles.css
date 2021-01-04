@@ -17,7 +17,16 @@
     font-weight: normal;
     font-style: normal;
 }
-
+@font-face{
+    font-family: "icons";
+        src:url("fonts/websymbols-regular-webfont.svg#WebSymbolsRegular") format('svg'),
+            url("fonts/websymbols-regular-webfont.eot");
+        src:url("fonts/websymbols-regular-webfont.eot?#iefix") format("embedded-opentype"),
+            url("fonts/websymbols-regular-webfont.woff") format("woff"),
+            url("fonts/websymbols-regular-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 /****************************-*********/
 /********** Estilos generales *******/
 /**********************************/
@@ -38,6 +47,12 @@ a:visited{
 }
 a:hover{
     color: #285616;
+}
+.icons{
+    font-family: icons;
+    float: left;
+    margin-right: 5px;
+    margin-top: -1px;
 }
 .red{
     color: red !important;
