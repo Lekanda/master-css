@@ -45,6 +45,9 @@ a:hover{
 .blue{
     color: blue !important;
 }
+.orange{
+    color: orange !important;
+}
 /*** Formularios ***/
 input[type="text"],
 input[type="password"],
@@ -322,12 +325,13 @@ nav > ul > li >ul > li:hover{
 }
 #section .titulo{
     font-family: "fajala";
-    font-size: 24px;
+    font-size: 26px;
     font-weight: normal;
     letter-spacing: 1px;
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    margin-top: -20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-bottom: 1px solid #ccc;
 }
 #section section{
@@ -347,7 +351,14 @@ nav > ul > li >ul > li:hover{
 }
 #section .date{
     font-size: 13px;
-
+    color: #C9C9C9;
 }
-
-
+#section .sticker1,
+#section .sticker2{
+    position: absolute;
+    margin-top: -39px;
+    z-index: 0;
+}
+#section .sticker2{
+    margin-left: 1254px;
+}
