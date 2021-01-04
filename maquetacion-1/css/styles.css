@@ -53,6 +53,7 @@ a:hover{
     float: left;
     margin-right: 5px;
     margin-top: -1px;
+    color: rgb(83, 27, 6);
 }
 .red{
     color: red !important;
