@@ -57,7 +57,7 @@ footer{
     background-color: teal;
     text-align: center;
     font-size: 15px;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /********** RESPONSIVE ************/
 /* Desde la anchura 0px hasta 1579px */
