@@ -54,6 +54,26 @@ body{
     overflow: hidden;
     transition: all 300ms;
 }
+#logo:hover{
+    border-radius: 2px;
+    color: black;
+    background-color: #ccc;
+}
+#logo:hover .gear{
+    /* Linear: Tiene el mismo ritmo la animacion todo el rato */
+    animation: fromBellow 500ms linear;
+}
+@keyframes fromBellow{
+    0%{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(200%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
 #logo h3{
     font-size: 40px;
     display: block;
@@ -63,6 +83,20 @@ body{
     margin-right: 65px;
     transition: all 300ms;
 }
+#logo:hover h3{
+    animation: fromRight 300ms linear;
+}
+
+@keyframes fromRight{
+    from{
+        transform: translateX(200%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+
+
 .gear{
     font-family: "websymbols-regular";
 }
@@ -72,7 +106,23 @@ body{
     font-size: 30px;
     margin-top: 7px;
     margin-left: 26px;
+    animation-name: rotate-gear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
+@keyframes rotate-gear{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+
+
+
 #menu{
     float: right;
     height: 70px;
