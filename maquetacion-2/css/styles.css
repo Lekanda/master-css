@@ -496,7 +496,7 @@ body{
 }
 #articles h2{
     display: block;
-    width: 100%;
+    width: 95%;
     height: 75px;
     line-height: 75px;
     text-align: center;
@@ -511,7 +511,7 @@ body{
     margin-bottom: 15px;
 }
 #articles article{
-    width: 98%;
+    width: 93%;
     height: auto;
     border: 1px solid#ccc;
     margin: 40px auto;
