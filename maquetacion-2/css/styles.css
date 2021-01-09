@@ -402,7 +402,7 @@ body{
     margin-top: 20px;
     margin-bottom: 15px;
 }
-#articles #article{
+#articles article{
     width: 100%;
     height: auto;
     border: 1px solid#ccc;
@@ -443,4 +443,18 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 15px;
+}
+#blog{
+    height: 100px;
+    margin-top: 60px;
+    line-height: 100px;
+    text-align: center;
+}
+#blog a{
+    display: block;
+    font-family: "BebasNeue";
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: #00538c;
+    text-decoration: none;
 }
