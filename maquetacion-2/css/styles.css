@@ -345,6 +345,7 @@ body{
     font-weight: lighter;
     margin-left: 17px;
     transition: all 300ms;
+    margin-bottom: 20px;
 }
 #login input[type="submit"]:hover,
 #login input[type="button"]:hover,
@@ -352,3 +353,13 @@ body{
 #login button:hover{
     box-shadow: -1px -1px 3px #2ca0ca, 1px 1px 3px #2ca0ca;
 }
+#login a{
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 18px;
+    color: #555;
+}
+#login a:hover{
+    text-decoration: underline;
+    color: #2f78bc;
