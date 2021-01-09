@@ -21,7 +21,10 @@
          font-weight: normal;
          font-style: normal;
 }
-
+.clearfix{
+    float: none;
+    clear: both;
+}
 /* Estilos generales */
 *{
     margin: 0px;
@@ -363,3 +366,16 @@ body{
 #login a:hover{
     text-decoration: underline;
     color: #2f78bc;
+}
+#social{
+    height: 190px;
+}
+#social a{
+    display: block;
+    color: #555;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: -2px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
