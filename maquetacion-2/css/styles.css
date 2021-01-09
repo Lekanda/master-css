@@ -99,8 +99,14 @@ body{
 /* .icon: para poner los simbolos de WebSymbols, Clase propia */
 .gear, .icon{
     font-family: "websymbols-regular";
+    display: block;
+    float: left;
+    font-size: 30px;
+    margin-top: 7px;
+    margin-left: 26px;
+    font-size: 30px;
 }
-#logo .gear{
+#logo:hover .gear{
     display: block;
     float: left;
     font-size: 30px;
@@ -109,7 +115,7 @@ body{
     animation-name: rotate-gear;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
 }
 @keyframes rotate-gear{
     from{
@@ -193,6 +199,7 @@ body{
     margin: 0px auto;
 }
 .card .category{
+    display: block;
     width: 100%;
     height: 50px;
     font-family: "TrebuchetMS";
@@ -202,6 +209,8 @@ body{
     color: #00538c;
 }
 .card .description{
+    display: block;
+    margin-top: 157px;
     font-family: "TrebuchetMS";
     text-align: center;
     color: #006fb9;
@@ -254,14 +263,14 @@ body{
     transition: all 400ms;
 }
 #lateral input[type="text"]:focus{
-    color: olivedrab;
+    color: #ccc;
     /* outline: Quita el borde del input */
     outline:0px;
-    border: 1px solid olivedrab;
-    box-shadow: 1px 1px 5px olivedrab inset,-1px -1px 5px olivedrab inset;
 }
-#lateral input[type="button"],
-#lateral input[type="submit"]{
+#lateral input[type="button"]{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 243px;
     height: 30px;
     cursor: pointer;
     font-size: 16px;
@@ -304,12 +313,42 @@ body{
     text-align: center;
     position: absolute;
     margin-left: 15px;
-    margin-top: 6px;
+    margin-top: 3px;
     height: 30px;
+    font-size: 19px;
+
 }
 #login #password{
-    margin-left: 18px;
-    margin-top: 27px;
-    font-size: 20px;
-    
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 21px;
+}
+#pass{
+    margin-left: 10px;
+}
+#login input[type="submit"],
+#login input[type="button"],
+#login input[type="reset"],
+#login button{
+    /* display: block; */
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    margin-top: 20px;
+    color: white;
+    background: linear-gradient(to bottom, #3eb8e5 0%, #2ca0ca 100%);
+    border: 1px solid#156785;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: "TrebuchetMS";
+    font-weight: lighter;
+    margin-left: 17px;
+    transition: all 300ms;
+}
+#login input[type="submit"]:hover,
+#login input[type="button"]:hover,
+#login input[type="reset"]:hover,
+#login button:hover{
+    box-shadow: -1px -1px 3px #2ca0ca, 1px 1px 3px #2ca0ca;
 }
