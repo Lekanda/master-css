@@ -7,4 +7,24 @@
         width: 17%;
         margin: 1.40%;
     }
+    #articles{
+        width: 65%;
+    }
+    #footer .wrap > div{
+        width: 25%;
+        margin: 4%;
+    }
+    #footer ul{
+        font-size: 20px;
+    }
+    #footer h5{
+        font-size: 32px;
+    }
+    #footer #browsers img{
+        width: 14%;
+    }
+    #location iframe{
+        height: 64%;
+        width: 89%;
+    }
 }
