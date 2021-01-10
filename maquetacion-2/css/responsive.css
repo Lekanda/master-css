@@ -164,7 +164,7 @@
         line-height: 15px;
     }
     .card .category{
-        font-size: 15px;
+        font-size: 13px;
     }
     .card .icon{
         font-size: 35px;
@@ -226,6 +226,139 @@
 
 
 
+@media(max-width: 762px){
+    .card .category{
+        font-size: 10px;
+    }
+    .card .description{
+        font-size: 8px;
+    }
+    #lateral{
+        min-height: 1048px;
+    }
+    #articles{
+        width: 58%;
+    }
+    #articles h2{
+        font-size: 20px;
+    }
+    #articles article h4{
+        font-size: 15px;
+    }
+    #articles .data{
+        font-size: 9px;
+    }
+    #articles article p{
+        margin-top: 9px;
+        margin-bottom: 9px;
+        font-size: 8px;
+    }
+}
+
+
+
+
+
+
 @media(max-width: 725px){
+    #menu ul li{
+        font-size: 20px;
+    }
+    #logo{
+        width: 148px;
+        margin-top: 7px;
+        margin-left: -7px;
+    }
+    #logo h3{
+        font-size: 35px;
+        margin-right: 17px;
+    }
+    .gear, .icon {
+        margin-left: 16px;
+    }
+    #banner h1{
+        font-size: 28px;
+    }
+    .card {
+        width: 17.68%;
+        height: 174px;
+        margin: 1%;
+    }
+    .card .icon {
+        line-height: 83px;
+    }
+    .card .description {
+        display: none;
+    }
+    .card .category {
+        height: 30px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    #lateral{
+        min-height: 1006px;
+    }
+    #lateral h3{
+        font-size: 19px;
+        height: 33px;
+        line-height: 36px;
+    }
+    #login a {
+        font-size: 13px;
+        margin-left: 32px;
+        padding: 4px;
+    }
+    #login a{
+        color: rgb(246, 12, 3);
+    }
+    #login input[type="submit"], 
+    #login input[type="button"], 
+    #login input[type="reset"], 
+    #login button {
+        width: 35.5%;
+        margin-top: 13px;
+    }
+    #login input[type="submit"] {
+        margin-left: 33%;
+    }
+    #articles h2{
+        font-size: 18px;
+        height: 53px;
+        line-height: 57px;
+    }
+    #articles .data {
+        height: 22px;
+        line-height: 21px;
+
+    }
+    #footer h5 {
+        height: 29px;
+        line-height: 30px;
+        font-size: 18px;
+    }
+    #footer #browsers img{
+        width: 13%;
+    }
+    #footer #browsers{
+        width: 109%;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 1px;
+    }
+    #footer #info p > img {
+        width: 140px;
+        margin-top: 6px;
+        margin-bottom: 5px;
+    }
+    #location iframe{
+        height: 44%;
+        width: 107%;
+    }
+    #autor{
+        font-size: 14px;
+        margin-top: 8px;
+    }
     
+
 }

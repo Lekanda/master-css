@@ -449,7 +449,7 @@ body{
     color: #555;
 }
 #login a:hover{
-    text-decoration: underline;
+    text-decoration: none;
     color: #2f78bc;
 }
 #social{
