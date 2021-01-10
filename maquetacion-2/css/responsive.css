@@ -14,7 +14,7 @@
         width: 90%;
         margin: 0px auto;
         margin-top: 69px;
-        font-size: 12px;
+        font-size: 14px;
         text-align: center;
         line-height: 16px;
     }
@@ -39,10 +39,193 @@
         width: 89%;
     }
     #banner h1{
+        width: 100%;
         font-size: 35px;
         text-align: center;
         margin: 33px auto;
     }
+}
 
 
+
+
+
+
+
+
+
+@media(max-width:1084px){
+    .card .category{
+        font-size: 17px;
+    }
+    .card .description{
+        font-size: 12px;
+    }
+    .card .icon{
+        font-size: 40px;
+    }
+    .card:hover .icon{
+        font-size: 60px;
+    }
+    #articles{
+        width: 61%;
+    }
+    #footer{
+        height: 404px;
+    }
+}
+
+
+
+
+
+
+
+
+@media(max-width:970px){
+    #lateral{
+        width: 31%;
+    }
+    #lateral input[type="button"] {
+        margin-left: 157px;
+    }
+    #login input[type="submit"], 
+    #login input[type="button"], 
+    #login input[type="reset"], 
+    #login button {
+        width: 38.5%;
+    }
+    #login input[type="email"], 
+    #login input[type="password"]{
+        width: 73%;
+    }
+    #articles{
+        width: 58%;
+    }
+    #articles h2{
+        font-size: 30px;
+    }
+    #articles article h4{
+        font-size: 20px;
+    }
+    #articles .data{
+        font-size: 11px;
+    }
+    #articles article p{
+        margin-top: 9px;
+        margin-bottom: 9px;
+        font-size: 13spx;
+    }
+    #footer{
+        height: 296px;
+    }
+    #footer ul li a{
+        height: 22px;
+    }
+    #footer img{
+        margin-bottom: 5px;
+    }
+    #location iframe{
+        height: 46%;
+        width: 87%;
+    }
+    #footer h5{
+        font-size: 22px;
+        width: 174px;
+        height: 36px;
+        line-height: 40px;
+        margin: 0px auto;
+    }
+    #footer #info p > img{
+        margin: 0px auto;
+        margin-top: 5px;
+        margin-bottom: -1px;
+        margin-left: 17px;
+        width: 173px;
+    }
+    #footer #browsers img{
+        width: 10%;
+        margin-top: 5px;
+    }
+    #footer ul{
+        font-size: 17px;
+    }
+    .card{
+        width: 17%;
+        margin: 1.40%;
+        height: 241px;
+    }
+    .card .description{
+        width: 90%;
+        margin: 0px auto;
+        margin-top: 46px;
+        font-size: 12px;
+        text-align: center;
+        line-height: 15px;
+    }
+    .card .category{
+        font-size: 15px;
+    }
+    .card .icon{
+        font-size: 35px;
+    }
+    #blog a{
+        font-size: 36px;
+    }
+}
+
+
+
+
+
+
+@media(max-width:900px){
+    #banner h1{
+        font-size: 32px;
+    }
+    #articles{
+        width: 62%;
+    }
+    .card .icon{
+        line-height: 100px;    
+    }
+    .card .description{
+        margin-top: 35px;
+    }
+    .card .category{
+        line-height: 0px;
+    }
+    #lateral h3{
+        font-size: 22px;
+    }
+    #lateral input[type="button"] {
+        margin-left: 202px;
+    }
+    #login #password, 
+    #login #user {
+        margin-left: 19px;
+    }
+    #login input[type="reset"]{
+        display: none;
+    }
+    #login input[type="submit"]{
+        margin-left: 31%;
+    }
+    #footer{
+        height: 254px;
+    }
+    #footer ul{
+        font-size: 16px;
+    }
+    #footer ul li a{
+        height: 19px;
+    }
+}
+
+
+
+
+
+@media(max-width: 725px){
+    
 }
