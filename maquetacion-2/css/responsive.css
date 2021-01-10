@@ -7,6 +7,17 @@
         width: 17%;
         margin: 1.40%;
     }
+    .card .description{
+        display: block;
+        float: left;
+        font-family: "TrebuchetMS";
+        width: 90%;
+        margin: 0px auto;
+        margin-top: 69px;
+        font-size: 12px;
+        text-align: center;
+        line-height: 16px;
+    }
     #articles{
         width: 65%;
     }
@@ -27,4 +38,11 @@
         height: 64%;
         width: 89%;
     }
+    #banner h1{
+        font-size: 35px;
+        text-align: center;
+        margin: 33px auto;
+    }
+
+
 }
