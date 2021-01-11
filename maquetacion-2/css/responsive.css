@@ -54,6 +54,11 @@
 
 
 
+
+
+
+
+
 @media(max-width:1084px){
     .card .category{
         font-size: 17px;
@@ -82,12 +87,16 @@
 
 
 
+
+
+
+
 @media(max-width:970px){
     #lateral{
         width: 31%;
     }
     #lateral input[type="button"] {
-        margin-left: 157px;
+        margin-left: 22%;
     }
     #login input[type="submit"], 
     #login input[type="button"], 
@@ -172,7 +181,13 @@
     #blog a{
         font-size: 36px;
     }
+
 }
+
+
+
+
+
 
 
 
@@ -199,7 +214,7 @@
         font-size: 22px;
     }
     #lateral input[type="button"] {
-        margin-left: 202px;
+        margin-left: 20%;
     }
     #login #password, 
     #login #user {
@@ -221,6 +236,14 @@
         height: 19px;
     }
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -254,6 +277,13 @@
         font-size: 8px;
     }
 }
+
+
+
+
+
+
+
 
 
 
@@ -314,7 +344,7 @@
     #login input[type="submit"], 
     #login input[type="button"], 
     #login input[type="reset"], 
-    #login button {
+    #login button{
         width: 35.5%;
         margin-top: 13px;
     }
@@ -359,6 +389,307 @@
         font-size: 14px;
         margin-top: 8px;
     }
-    
-
 }
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 593px){
+    #header{
+        width: 100%;
+        height: 120px;
+    }
+    #menu{
+        clear: both;
+        float: none;
+        width: 73%;
+        margin: 0px auto;
+    }
+    #menu ul li a{
+        font-size: 17px;
+    }
+    #banner{
+        height: 84px;
+    }
+    #banner h1 {
+        font-size: 21px;
+    }
+    .card .icon {
+        height: 100px;
+        line-height: 100px;
+    }
+    #social a {
+        font-size: 25px;
+        margin-left: 17px;
+        margin-top: 11px;
+        margin-bottom: 20px;
+    }
+    .aside-box {
+        height: 225px;
+        margin-top: 16px;
+    }
+    #lateral input[type="button"] {
+        margin-left: 15%px;
+        width: 40px;
+    }
+    #logo{
+        float: none;
+        margin: 0px auto;
+    }
+    #login #password, 
+    #login #user {
+        margin-left: 13px;
+    }
+    #login a {
+        font-size: 11px;
+        margin-left: 30px;
+        padding: 1px;
+        font-size: 10px;
+    }
+    #login #password, 
+    #login #user{
+        margin-top: 5px;
+        font-size: 16px;
+
+    }
+    #login #password {
+        font-size: 19px;
+        margin-top: 25px;
+    }
+    #login input[type="email"], #login input[type="password"] {
+        width: 68%;
+    }
+    #articles .data{
+        font-size: 8px;
+        padding: 1px;
+    }
+    #footer h5 {
+        height: 27px;
+        width: 102%;
+        line-height: 30px;
+        font-size: 18px;
+        font-size: 15px;
+    }
+    #footer #info p > img {
+        margin-left: 3px;
+    }
+    #footer #browsers{
+        margin-left: -5px;
+    }
+    #footer #browsers img {
+        margin-top: 5px;
+    }
+    #footer ul {
+        font-size: 14px;
+    }
+    #login input[type="submit"], 
+    #login input[type="button"], 
+    #login input[type="reset"], 
+    #login button {
+        margin-bottom: 16px;
+        margin-top: 14px;
+        width: 84px;
+    }
+    #login input[type="submit"]{
+        margin-left: 21%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:552px){
+    #header{
+        width: 100%;
+        height: 97px;
+    }
+    .wrap {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .card {
+        width: 18.65%;
+        height: 174px;
+        margin: 0.5%;
+    }
+    #lateral h3 {
+        font-size: 14px;
+        height: 30px;
+        line-height: 36px;
+    }
+    #menu {
+        clear: both;
+        float: none;
+        width: 100%;
+        margin: 0px auto;
+        margin-left: 26%;
+    }
+    #menu ul li {
+        margin: 10px 10px 0px 10px;
+        line-height: 39px;
+    }
+    #footer ul {
+        font-size: 12px;
+    }
+    #footer ul li a {
+        height: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:500px){
+    #lateral,
+    #articles{
+        width: 100%;
+    }
+    #lateral h3 {
+        font-size: 14px;
+        height: 30px;
+        line-height: 36px;
+        margin-left: 35px;
+    }
+    #footer {
+        height: 237px;
+    }
+    #articles article {
+        width: 93%;
+        height: auto;
+        margin: 12px auto;
+        padding: 10px;
+    }
+    #blog{
+        line-height: 55px;
+    }
+    #blog a {
+        font-size: 28px;
+    }
+    .card {
+        width: 17.65%;
+        height: 136px;
+        margin: 1%;
+    }
+    .card .icon {
+        font-size: 29px;
+        height: 83px;
+        line-height: 100px;
+    }
+    .card .category {
+        height: 14px;
+        font-size: 11px;
+        line-height: 18px;
+    }
+    #lateral {
+        margin: 6px;
+    }
+    #lateral h3 {
+        width: 30%;
+    }
+    #lateral input[type="button"] {
+        margin-left: 79%;
+        width: 30px;
+    }
+    #menu {
+        width: 100%;
+        margin: 0px auto;
+        margin-left: 22.5%;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:433px){
+    #menu {
+        width: 100%;
+        margin: 0px auto;
+        margin-left: 7%;
+    }
+    .card {
+        width: 16.65%;
+        height: 136px;
+        margin: 1%;
+        margin-left: 6px;
+    }
+}
+
+
+
+
+
+@media(max-width:361px){
+    #footer{
+        height: auto;
+        padding-bottom: 40px;
+    }
+    #footer .wrap > div{
+        width: 100%;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
+    #menu {
+        width: 100%;
+        margin: 0px auto;
+        margin-left: 11%;
+    }
+    #search {
+        width: 80%;
+    }
+    #lateral input[type="button"] {
+        margin-left: 71%;
+        width: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:319px){
+    #menu {
+        width: 100%;
+        margin: 0px auto;
+        margin-left: 6%;
+    }
+}
+
+
+
+
+/************Clases mias**************/
+
+
+
+
+
+
