@@ -514,7 +514,7 @@
 @media(max-width:552px){
     #header{
         width: 100%;
-        height: 97px;
+        height: 25%;
     }
     .wrap {
         width: 100%;
@@ -547,6 +547,7 @@
     #footer ul li a {
         height: 15px;
     }
+    
 }
 
 
@@ -647,10 +648,14 @@
         height: auto;
         padding-bottom: 40px;
     }
+    #footer h5{
+        float: none;
+    }
     #footer .wrap > div{
         width: 100%;
         margin: 0px auto;
         margin-top: 20px;
+        height: 23%;
     }
     #menu {
         width: 100%;
@@ -663,6 +668,12 @@
     #lateral input[type="button"] {
         margin-left: 71%;
         width: 30px;
+    }
+    .card .icon{
+        font-size: 25px;
+    }
+    .card:hover .icon{
+        font-size: 25px;
     }
 }
 
@@ -677,12 +688,20 @@
 
 @media(max-width:319px){
     #menu {
+        clear: both;
+        float: none;
         width: 100%;
         margin: 0px auto;
         margin-left: 6%;
     }
+    #menu li{
+        width: 100%;
+        line-height: 30px;
+    }
+    #header{
+        height: 248px;
+    }
 }
-
 
 
 
