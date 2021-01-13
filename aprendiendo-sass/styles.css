@@ -11,4 +11,24 @@ p {
   color: #7a1414;
 }
 
+.caja {
+  border: 1px solid black;
+  width: 500px;
+  margin: 0px auto;
+  text-align: center;
+  background-color: #cfa4f6;
+}
+.caja h1 {
+  color: brown;
+}
+.caja p {
+  color: green;
+}
+.caja .info {
+  font-size: 25px;
+}
+.caja .info .autor {
+  font-size: 35px;
+}
+
 /*# sourceMappingURL=styles.css.map */
