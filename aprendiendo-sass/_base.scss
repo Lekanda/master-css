@@ -9,7 +9,7 @@ $color-secundario: rgb(122,20,20);
 
 // uso de variables
 body{
-    background-color: $color-fondo;
+    // background-color: $color-fondo;
 }
 h1{
     color: $color-letra;
@@ -55,3 +55,35 @@ p{
 .listado{
     @include crearBordes(green, 5px, yellow);
 }
+
+
+
+// HERENCIA
+%alert-normal{
+    border: 3px solid grey;
+    background: #eee;
+    color: grey;
+    padding: 10px;
+    width: 80%;
+    margin: 20px auto;
+
+}
+
+.alert{
+    @extend %alert-normal;
+}
+
+.alert-danger{
+    @extend %alert-normal;
+    color: red;
+    border-color: red
+}
+
+.alert-success{
+    @extend %alert-normal;
+    color: green;
+    border-color: green
+}
+
+
+
