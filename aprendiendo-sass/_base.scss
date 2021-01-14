@@ -105,3 +105,30 @@ $wrap : 900px;
     width: $caja / $wrap *100%;
     margin: 10px;
 }
+
+
+
+// Condicionales- IF
+$color-fondo: rgb(129, 25, 25);
+h1{
+    @if $color-fondo == #ccc {
+        color: black;
+    }@else if $color-fondo==black{
+        color: lightsalmon;
+    }@else{
+        color: pink;
+    }
+}
+
+
+// FOR
+
+
+
+// EACH
+
+
+
+
+// WHILE
+
