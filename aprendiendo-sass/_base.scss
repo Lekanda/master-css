@@ -1,8 +1,13 @@
+//  En SASS se puede comentar asi.
+
+// Variables
 $fuente-tipica: sans-serif, Helvetica, Arial;
 $color-fondo: #ccc;
 $color-letra: red;
 $color-secundario: rgb(122,20,20);
 
+
+// uso de variables
 body{
     background-color: $color-fondo;
 }
@@ -14,6 +19,8 @@ p{
     color: $color-secundario;
 }
 
+
+// Anidacion
 .caja {
     border: 1px solid black;
     width: 500px;
@@ -32,4 +39,19 @@ p{
             font-size: 35px;
         }
     }
+}
+
+
+
+// MIXINS / FUNCION
+@mixin crearBordes($color, $size, $shadow) {
+    border: $size solid $color;
+    border-radius: $size;
+    box-shadow: 0px 0px $size $shadow;
+}
+.caja{
+    @include crearBordes(red, 10px, black);
+}
+.listado{
+    @include crearBordes(green, 5px, yellow);
 }
