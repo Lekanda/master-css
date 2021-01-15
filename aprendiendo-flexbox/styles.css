@@ -4,12 +4,19 @@ body{
 }
 
 #layout{
-    display: flex;
+    display: inline-flex;
+    flex-direction: row-reverse;
     border: 3px solid black;
     padding: 5px;
 
 }
-
+/*
+unset: ninguno. hace el default.
+row: fila(Default)
+row-reverse: fila al reves
+column: columna
+column-reverse: columna al reves
+*/
 .caja{
     font-size: 20px;
     font-weight: bold;
