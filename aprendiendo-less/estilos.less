@@ -34,6 +34,30 @@ h1{
 }
 
 
+// Operadores
+h1{
+    font-size: 30px +7px;
+}
+
+// Mixins condicionales
+.textoNegro(@value) when (@value = true){
+    color: black;
+}
+h1{
+    color: blue;
+    .textoNegro(false);
+}
+// Bucles
+.loop(@cont) when (@cont > 0){
+    .loop((@cont - 1));
+    height: (900px/@cont);
+}
+.informacion{
+    height: 900px;
+    .loop(5);
+}
+
+
 
 // Para compilar:  lessc  estilos.less styles.css   
 // Estilos.less a styles.css

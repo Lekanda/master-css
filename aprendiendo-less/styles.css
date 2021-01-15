@@ -12,3 +12,16 @@ h1 {
   box-shadow: 0px 0px 5px black;
   text-shadow: 0px 0px 5px black;
 }
+h1 {
+  font-size: 30px 7px;
+}
+h1 {
+  color: blue;
+}
+.informacion {
+  height: 900px;
+  height: 450px;
+  height: 300px;
+  height: 225px;
+  height: 180px;
+}
