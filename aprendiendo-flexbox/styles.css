@@ -27,6 +27,13 @@ flex-flow: equivale a flex-direction flex-wrap.
 
     justify-content: space-evenly;
 
+    height: 600px;
+    align-items: flex-start;
+    /*
+    align-items: flex-start; => arriba
+                 center;=> en el centro
+                 baseline => Ocupa lo que hay dentro.
+    */
     border: 3px solid black;
     padding: 5px;
 }
@@ -56,11 +63,10 @@ flex-grow: 1; =>Coloca el ancho automatico en cada caja. Se debe poner en cada c
 flex-grow: 0; Por Defecto.
 */
 .caja{
-    /* flex-grow: 1; */
+    flex-grow: 1;
 
     /* flex-basis: 25%; */
     /* flex-basis: calc((100% / 3) - 68px); */
-
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -78,12 +84,16 @@ flex-grow: 5; => Da 5 % mas espacio que en las otras que no hay nada puesto.
     /* order: 4; */
 
     /* flex-basis: calc((100% / 3) - 80px); */
+
+    align-self: flex-start;
     background: var(--rojo);
 }
 .green{
     /* flex-grow: 7; */
     /* order: 1; */
     /* flex-basis: calc((100% / 3) - 80px); */
+
+    align-self: center;
     background: green;
 }
 .blue{
@@ -91,6 +101,8 @@ flex-grow: 5; => Da 5 % mas espacio que en las otras que no hay nada puesto.
     /* flex-shrink: 0; */
     /* order: 2; */
     /* flex-basis: calc((100% / 3) - 80px); */
+
+    align-self: center;
     background: blue;
 }
 .orange{
@@ -98,7 +110,7 @@ flex-grow: 5; => Da 5 % mas espacio que en las otras que no hay nada puesto.
     /* order: 3; */
 
     /* flex-basis: 100%; */
-
+    align-self: flex-end;
     background: orange;
 }
 /*
