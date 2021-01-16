@@ -1,10 +1,10 @@
+ /* Variables */
+/* Se pueden declarar en el body tambien.*/
 body{
+    --rojo: red;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-
-
-
 
 
 
@@ -52,6 +52,9 @@ flex-grow: 0; Por Defecto.
 .caja{
     flex-grow: 1;
 
+    /* flex-basis: 25%; */
+    /* flex-basis: calc((100% / 3) - 68px); */
+
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -65,24 +68,31 @@ flex-grow: 0; Por Defecto.
 flex-grow: 5; => Da 5 % mas espacio que en las otras que no hay nada puesto.
 */
 .red{
-    flex-grow: 7;
+    /* flex-grow: 7; */
     /* order: 4; */
-    background: red;
+
+    /* flex-basis: calc((100% / 3) - 80px); */
+    background: var(--rojo);
 }
 .green{
-    flex-grow: 7;
+    /* flex-grow: 7; */
     /* order: 1; */
+    /* flex-basis: calc((100% / 3) - 80px); */
     background: green;
 }
 .blue{
-    flex-grow: 0;
-    flex-shrink: 0;
+    /* flex-grow: 0; */
+    /* flex-shrink: 0; */
     /* order: 2; */
+    /* flex-basis: calc((100% / 3) - 80px); */
     background: blue;
 }
 .orange{
-    flex-grow: 7;
+    /* flex-grow: 7; */
     /* order: 3; */
+
+    flex-basis: 100%;
+
     background: orange;
 }
 /*
@@ -92,10 +102,14 @@ Sí hay varios order puestos sin -
 */
 
 /*
-
+flex-grow: 0;
+flex-shrink: 0;
+- Reduce un poco el tamaño de la caja.
 */
 
-
+/*
+flex-basis: calc((100% / 3) - 80px); => es como el width pero en flexbox. Usar este en flexbox.
+*/
 
 
 
