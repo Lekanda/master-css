@@ -23,7 +23,7 @@ flex-flow: equivale a flex-direction flex-wrap.
     /* flex-direction: row;
     flex-wrap: wrap; */
 
-    flex-flow: column wrap;
+    flex-flow: row wrap;
 
     border: 3px solid black;
     padding: 5px;
@@ -56,14 +56,23 @@ column-reverse: columna al reves
 }
 
 .red{
+    order: 4;
     background: red;
 }
 .green{
+    order: 1;
     background: green;
 }
 .blue{
+    order: 2;
     background: blue;
 }
 .orange{
+    order: 3;
     background: orange;
 }
+/*
+order: ordenar; 1 el ultimo. -1 el primero. SÍ SOLO HAY UN ORDER PUESTO
+
+Sí hay varios order puestos sin -
+*/
