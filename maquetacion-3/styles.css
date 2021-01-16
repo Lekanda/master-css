@@ -17,3 +17,37 @@
 
     min-height: 600px;
 }
+
+#header{
+    /* Los elementos dentro de header som flexibles */
+    display: flex;
+    /* Se organizan en filas */
+    flex-direction: row;
+    /* Sí alguno sobresale se pone en la fila de abajo */
+    flex-wrap: wrap;
+    /* Alinea en el centro vertical */
+    align-items: center;
+
+
+    height: 120px;
+    border-bottom: 1px solid rgba(225,225,226,0.8);
+}
+
+
+.logo{
+    /* Como un width */
+    flex-basis: 65%;
+
+    padding: 10px;
+    margin-left: 20px;
+    color: black;
+    text-shadow: 1px 1px 0px #ccc;
+    text-transform: uppercase;
+}
+
+.logo h1{
+    font-family: Helvetica;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 35px;
+}
