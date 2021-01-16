@@ -3,21 +3,48 @@ body{
     text-align: center;
 }
 
+
+
+
+
+
+/*
+flex-wrap: wrap; => No sobresalen del 100% de la pagina
+           no-wrap => Sobresale de la pagina.
+
+flex-flow: equivale a flex-direction flex-wrap.
+    row wrap: fila y no se sale de pant.
+    column wrap: columna y no se sale de pant.
+    Tambien column-reverse, row-reverse...
+*/
 #layout{
-    display: inline-flex;
-    flex-direction: row-reverse;
+    display: flex;
+
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+
+    flex-flow: column wrap;
+
     border: 3px solid black;
     padding: 5px;
-
 }
 /*
+
 unset: ninguno. hace el default.
 row: fila(Default)
 row-reverse: fila al reves
 column: columna
 column-reverse: columna al reves
+
 */
+
+
+
+
+
+
 .caja{
+    /* width: 8.8%; */
     font-size: 20px;
     font-weight: bold;
     text-align: center;
