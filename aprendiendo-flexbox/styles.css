@@ -42,9 +42,16 @@ column-reverse: columna al reves
 
 
 
+/*
+- Indica cuanto puede crecer un elemento dentro del contenedor de flexbox. Y cuanto espacio puede ocupar.
 
+flex-grow: 1; =>Coloca el ancho automatico en cada caja. Se debe poner en cada caja. No en el padre.
+
+flex-grow: 0; Por Defecto.
+*/
 .caja{
-    /* width: 8.8%; */
+    flex-grow: 1;
+
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -54,21 +61,26 @@ column-reverse: columna al reves
     margin: 10px;
     background: grey;
 }
-
+/*
+flex-grow: 5; => Da 5 % mas espacio que en las otras que no hay nada puesto.
+*/
 .red{
-    order: 4;
+    flex-grow: 7;
+    /* order: 4; */
     background: red;
 }
 .green{
-    order: 1;
+    flex-grow: 7;
+    /* order: 1; */
     background: green;
 }
 .blue{
-    order: 2;
+    /* order: 2; */
     background: blue;
 }
 .orange{
-    order: 3;
+    flex-grow: 7;
+    /* order: 3; */
     background: orange;
 }
 /*
@@ -76,3 +88,9 @@ order: ordenar; 1 el ultimo. -1 el primero. SÍ SOLO HAY UN ORDER PUESTO
 
 Sí hay varios order puestos sin -
 */
+
+
+
+
+
+
