@@ -25,32 +25,38 @@ flex-flow: equivale a flex-direction flex-wrap.
 
     flex-flow: row wrap;
 
+    justify-content: space-evenly;
+
     border: 3px solid black;
     padding: 5px;
 }
 /*
-
 unset: ninguno. hace el default.
 row: fila(Default)
 row-reverse: fila al reves
 column: columna
 column-reverse: columna al reves
-
+*/
+/*
+-Esto es sin flex grow y flex basis en las cajas.
+ justify-content: space-around; => Distribuye las cajas.
+                  flex-start; => Al principio (Left lo mismo).
+                  flex-end; => Al final (Right lo mismo).
+                  center; => Lo centra.
+                  space-between;=> Distribuye pero las cajas pegadas a los lados
+                  space-evenly;=> Parecida a spce-around. Ademas centra.
 */
 
 
-
-
-
 /*
-- Indica cuanto puede crecer un elemento dentro del contenedor de flexbox. Y cuanto espacio puede ocupar.
+- flex-grow: Indica cuanto puede crecer un elemento dentro del contenedor de flexbox. Y cuanto espacio puede ocupar.
 
 flex-grow: 1; =>Coloca el ancho automatico en cada caja. Se debe poner en cada caja. No en el padre.
 
 flex-grow: 0; Por Defecto.
 */
 .caja{
-    flex-grow: 1;
+    /* flex-grow: 1; */
 
     /* flex-basis: 25%; */
     /* flex-basis: calc((100% / 3) - 68px); */
@@ -91,7 +97,7 @@ flex-grow: 5; => Da 5 % mas espacio que en las otras que no hay nada puesto.
     /* flex-grow: 7; */
     /* order: 3; */
 
-    flex-basis: 100%;
+    /* flex-basis: 100%; */
 
     background: orange;
 }
