@@ -5,10 +5,14 @@ body{
 
 .layout{
     width: 1200px;
+    height: 400px;
     margin: 0px auto;
     /* Definir Grid */
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    /* Definir Columnas */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr) 3fr;
+
     /* Espacio entre elementos grid */
     grid-gap: 10px;
 
@@ -34,5 +38,11 @@ body{
     background: blue;
 }
 .layout .pink{
-    background:pink;
+    background:rgb(255, 140, 159);
+}
+.layout .grey{
+    background:grey;
+}
+.layout .brown{
+    background:brown;
 }
