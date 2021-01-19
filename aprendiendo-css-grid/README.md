@@ -1,13 +1,11 @@
 ## CSS-GRID
 
 #### Basicos de Grid
----
 
 - *Grid* solo actua sobre un *div*, no sobre toda la pagina.   
 - *Grid* acepta mejor las **fracciones(fr)**. Mejor que **%**.
-
-#### Configurar en el proyecto
 ---
+#### Configurar en el proyecto
  
  
 1. Poner en el div quer se quiere hacer Grid:            
@@ -19,7 +17,9 @@
     `grid-template-columns: calc(50% - 10px) calc(5- 10px);`    
     `grid-template-columns: calc(25% - 10px) 25% 25%;`       
     `grid-template-columns: repeat(4,calc(25% - 10px));`         
-    `grid-template-columns: repeat(2,calc(25% - 10px)) 15% 35%;`   
+    `grid-template-columns: repeat(2,calc(25% - 10px)) 15% 35%;` 
+
+
     ```css
     /*fr => Fraccion. Le indicamos la fraccion de el div que ocupa.
      1fr => 1 columna
@@ -34,7 +34,7 @@
     `grid-template-rows: 1fr 2fr 1fr;` 
     `grid-template-rows: repeat(2, 1fr) 3fr;`    
 
-
+---
 
 #### Unidades de medida
 
