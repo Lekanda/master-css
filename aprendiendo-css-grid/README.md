@@ -49,6 +49,13 @@
 > Lo mismo con  **grid-row**
 ---
 
-#### Unidades de medida
+#### Centrar contenido en una caja
 
--
+- Convertir la caja a *Flex*.   
+```css
+#cabecera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+```   
