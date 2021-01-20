@@ -3,6 +3,49 @@ body{
     font-family: sans-serif;
 }
 
+/*Segundo ejercicio (zona de arriba en el html)*/
+
+#website{
+    width: 75%;
+    height: 100vh;
+    margin: 0px auto;
+    border: 1px solid #ccc;
+}
+#cabecera{
+    background: blue;
+    color: white;
+}
+#menu{
+    background: lightblue;
+    color: black;
+}
+#contenido{
+    background: #eee;
+}
+#contenido article{
+    background: #ccc;
+    border: 1px solid#555;
+}
+#lateral{
+    background: orange;
+    color: white;
+}
+footer{
+    background: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Primer ejercicio (zona de abajo en el html)*/
 .layout{
     width: 80%;
    height: 600px;
