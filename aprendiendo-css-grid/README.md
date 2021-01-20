@@ -5,8 +5,7 @@
 - *Grid* solo actua sobre un *div*, no sobre toda la pagina.   
 - *Grid* acepta mejor las **fracciones(fr)**. Mejor que **%**.
 ---
-#### Configurar en el proyecto
- 
+#### Configurar y manejar GRID en el proyecto.
  
 1. Poner en el div quer se quiere hacer Grid:            
                 `display: grid;`      
@@ -30,13 +29,22 @@
      */
     grid-template-columns: 1fr 1fr;
     grid-template-columns: repeat(4, 1fr);           
-    ```
+    ```         
 4. **grid-template-rows**: Le indicamos numero de filas.         
     `grid-template-rows: 1fr 1fr 1fr;`         
     `grid-template-rows: 50% 10% 35%;`     
-    `grid-template-rows: 1fr 2fr 1fr;` 
+    `grid-template-rows: 1fr 2fr 1fr;`   
     `grid-template-rows: repeat(2, 1fr) 3fr;`    
 
+5. Para expandir las columnas se usa **grid-column-start** y **grid-column-end**.
+- El *layout* esta definido en el punto *3* y *4*.
+```css
+    /*Con el Start le decimos desde donde y con el end hasta donde*/
+        grid-column-start: 1; 
+        grid-column-end: 3;
+    /*Esto se puede hacer en una linea con*/
+        grid-column: 1 / 3;
+```
 ---
 
 #### Unidades de medida
