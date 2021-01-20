@@ -5,19 +5,18 @@ body{
 
 .layout{
     width: 1200px;
-    min-height: 400px;
+   height: 600px;
     margin: 0px auto;
     /* Definir Grid */
     display: grid;
     /* Definir Columnas */
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2,1fr) 3fr;
+    grid-template-rows: repeat(2,1fr) 3fr repeat(2,1fr);
 
     /* Espacio entre elementos grid */
     grid-gap: 10px;
-
-    border: 3px solid orangered;
     padding: 10px;
+    border: 3px solid orangered;
 }
 
 .layout .caja{
@@ -34,6 +33,8 @@ body{
     background: red;
 }
 .layout .green{
+    grid-row-start: 2;
+    grid-row-end: 6;
     background: green;
 }
 .layout .blue{
@@ -41,16 +42,18 @@ body{
     background: blue;
 }
 .layout .pink{
-    grid-column: 1 / 3;
+    grid-column: 2 / 3;
+    grid-row: 3 / 5;
     background:rgb(255, 140, 159);
 }
 .layout .grey{
     grid-column: 3 / 4;
+    grid-row: 3 / 5;
     background:grey;
 }
 .layout .brown{
     /* grid-column-start: 1;
     grid-column-end: 3; */
-    grid-column: 1 / 4;
+    grid-column: 2 / 4;
     background:brown;
 }
