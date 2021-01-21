@@ -15,11 +15,11 @@ body{
     grid-template-rows: 150px 70px 1fr 70px;
     grid-template-areas: 
         "cabecera cabecera cabecera cabecera cabecera"
-        "lateral menu menu menu menu"
+        "menu menu menu menu menu"
         "lateral contenido contenido contenido contenido"
         "lateral pie pie pie pie"
         ;
-
+    grid-gap: 20px;
     
     width: 75%;
     height: 1000px;

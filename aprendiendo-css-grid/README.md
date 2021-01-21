@@ -61,9 +61,10 @@
 ```   
 
 
-### GRID-AREA y Areas en grid.
+### GRID-AREA y GRID-TEMPLATE-AREAS.
 
-- Es otra forma de maquetar los *divs*.
+- Es otra forma de maquetar los *divs*.   
+- *Es muy facil para colocar los elementos*.
 
 ```css
 /* De esta forma creamos la plantilla en el div general. */
@@ -85,4 +86,3 @@
 }
 ```
 
-- 
