@@ -1,11 +1,11 @@
-## CSS-GRID
+# CSS-GRID
 
-#### Basicos de Grid
+### Basicos de Grid
 
 - *Grid* solo actua sobre un *div*, no sobre toda la pagina.   
 - *Grid* acepta mejor las **fracciones(fr)**. Mejor que **%**.
 ---
-#### Configurar y manejar GRID en el proyecto.
+### Configurar y manejar GRID en el proyecto.
  
 1. Poner en el div quer se quiere hacer Grid:            
                 `display: grid;`      
@@ -49,7 +49,7 @@
 > Lo mismo con  **grid-row**
 ---
 
-#### Centrar contenido en una caja
+### Centrar contenido en una caja   
 
 - Convertir la caja a *Flex*.   
 ```css
@@ -59,3 +59,30 @@
     align-items: center;
 }
 ```   
+
+
+### GRID-AREA y Areas en grid.
+
+- Es otra forma de maquetar los *divs*.
+
+```css
+/* De esta forma creamos la plantilla en el div general. */
+#website-area{
+    grid-template-areas: 
+        "cabecera cabecera cabecera cabecera cabecera"
+        "lateral menu menu menu menu"
+        "lateral contenido contenido contenido contenido"
+        "lateral pie pie pie pie"
+        ;
+
+}
+/* De esta forma  ligamos el elmento con la plantilla de arriba*/
+#website-area #cabecera{
+    grid-area: cabecera;
+}
+#website-area #menu{
+    grid-area: menu;
+}
+```
+
+- 
