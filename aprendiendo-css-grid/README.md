@@ -84,5 +84,6 @@
 #website-area #menu{
     grid-area: menu;
 }
+/*Grid-column-gap se usa tambien en Grid*/
 ```
 
