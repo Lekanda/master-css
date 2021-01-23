@@ -91,9 +91,9 @@
 
 #projects{
     display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
+    grid-template-columns: repeat(auto-fill, 250px);
     grid-gap: 20px;
-    align-items: flex-start;
+    align-items: start;
     /* margin-left: 35px; */
 }
 .project{
@@ -124,7 +124,6 @@
 #aside{
     margin-right: 30px;
     padding: 15px;
-
 }
 #aside h2{
     display: block;
@@ -181,4 +180,58 @@
     /* margin-left: 20px; */
     margin-right: 35px;
     color: #444;
+}
+
+
+
+
+@media(max-width:948px){
+    #header{
+        display: grid;
+        grid-template-columns: 100%;
+        align-items: center;
+        justify-content: center;
+        height: 140px;
+        padding-bottom: 20px;
+    }
+    #header h1{
+        text-align: center;
+    }
+    #content{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: start;
+        justify-items: space-between;
+        grid-column-gap: auto;
+    }
+    #projects{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+    }
+    .project{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #aside{
+        margin-right: 0px;
+        padding: 15px;
+    }
+    #aside ul{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+    }
+    #footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+    #footer .logo{
+        text-align: center !important;
+    }
+    #footer .info{
+        text-align: center !important;
+    }
 }
