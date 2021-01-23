@@ -161,16 +161,24 @@
 
 
 #footer{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    align-items: center;
+    justify-content: start;
+    
+    
     height: 120px;
     align-items: center;
     border-top: 1px solid rgba(225,225,226,0.8);
 }
 #footer .logo{
     opacity: 0.5;
-    text-align: right;
+    text-align: left;
     margin-right: 20px;
 }
 #footer .info{
-    margin-left: 20px;
+    text-align: right;
+    /* margin-left: 20px; */
+    margin-right: 35px;
     color: #444;
 }
