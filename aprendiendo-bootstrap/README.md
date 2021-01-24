@@ -10,7 +10,7 @@
 ---
 
 ## Clases de BootStrap 4
-
+> **Sustituir ***
 |   **Clase**	|   **Explicacion**	|
 |---	|---	|
 |   **bg-***	|   Color de fondo de caja [Doc](https://getbootstrap.com/docs/4.6/utilities/colors/#background-color)	|
@@ -21,7 +21,7 @@
 |   **align-items-***	|   Alinea **verticalmente**: **start, end, center, between, around**	|
 |   **align-self-start**	|   Alinea un *elemento* **verticalmente**: **start, end, center, between, around**	|
 |   **order-**	|   Indica el orden:*1,2,3...*.Poner en todos	|
-|   	|   	|
+|   **offset**	|   Mete espacios en columnas. Info abajo.	|
 |   	|   	|
 |   	|   	|
 |   	|   	|
@@ -94,7 +94,7 @@
 ---    
 
 
-## Offset
+## Clase de Bootstrap Offset
 
 - Es para *meter espacios en las columnas*. Hacemos que una columna sea un **espacio**.
 
