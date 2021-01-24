@@ -5,8 +5,7 @@
 
 - En *BS* hay 12 columnas para organizar los elementos.   
 -    
-
-![Tamaños](/img/sizeBoot.png)   
+<img src="img/sizeBoot.png"></img>
 > **Tabla de tamaños fijos en BootStrap**   
 
 
