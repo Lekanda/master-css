@@ -90,5 +90,13 @@
     </div>
 </section>
 ```   
-> Maquetacion de *contenido* y *barra lateral*.
+> Maquetacion de *contenido* y *barra lateral*.    
+---    
+
+
+## Offset
+
+- Es para *meter espacios en las columnas*. Hacemos que una columna sea un **espacio**.
+
+> Se debe poner en el elemento de la **drch** *donde se quiere poner el espacio*.    
 
