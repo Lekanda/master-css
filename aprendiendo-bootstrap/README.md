@@ -17,10 +17,57 @@
 |   p-*	|   padding [Doc](https://getbootstrap.com/docs/4.6/layout/utilities-for-layout/#margin-and-padding)	|
 |   w-*	|   Ancho en **%** de *1 a 100*	|
 |   col-lg-12	|   *12* columnas de ancho max de *992px*	|
+|   justify-content-*	|   Alinea **horizontal**: **start,end,center,between,around**	|
 |   	|   	|
 |   	|   	|
 |   	|   	|
-|   	|   	|
+
+
+## Ancho automatico
+
+- Hay que meter en cada **fila** en un *div* con clase **row**.   
+- *Para ajustar los elementos*, poner **col** para ajuste automatico.   
+    - **col-4** en un elemento da *4* de *mayor tamaño*.
+```html
+<section id="content" class="col-12">
+            <div class="row">
+                <section id="products" class="col-9 border">
+                    <h2>Productos</h2>
+                    <hr>
+                    <div class="items">
+                        <div class="row">
+                                <div class="item col bg-primary m-2">
+                                    Producto
+                                </div>
+                                <div class="item col bg-warning m-2">
+                                    Producto
+                                </div>
+                                <div class="item col bg-success m-2">
+                                    Producto
+                                </div>
+                        </div>
+                        <div class="row mt-5">
+                                <div class="item col bg-primary m-2">
+                                    Producto
+                                </div>
+                                <div class="item col bg-warning m-2">
+                                    Producto
+                                </div>
+                                <div class="item col bg-success m-2">
+                                    Producto
+                                </div>
+                                <div class="item col bg-success m-2">
+                                    Producto
+                                </div>
+                        </div>        
+                    </div>
+                </section>
+                <aside id="barra" class="col-3 border">
+                        <h2>Barra</h2>
+                </aside>
+            </div>
+</section>
+```
 
 
 
