@@ -1,4 +1,4 @@
-# BootStrap 4
+(setq markdown-css-paths '("style.css"))
 ---
 
 ## Detalles Generales
