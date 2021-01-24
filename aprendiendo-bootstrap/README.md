@@ -13,11 +13,15 @@
 
 |   **Clase**	|   **Explicacion**	|
 |---	|---	|
-|   bg-*	|   Color de fondo de caja [Doc](https://getbootstrap.com/docs/4.6/utilities/colors/#background-color)	|
-|   p-*	|   padding [Doc](https://getbootstrap.com/docs/4.6/layout/utilities-for-layout/#margin-and-padding)	|
-|   w-*	|   Ancho en **%** de *1 a 100*	|
-|   col-lg-12	|   *12* columnas de ancho max de *992px*	|
-|   justify-content-*	|   Alinea **horizontal**: **start,end,center,between,around**	|
+|   **bg-***	|   Color de fondo de caja [Doc](https://getbootstrap.com/docs/4.6/utilities/colors/#background-color)	|
+|   **p-***	|   padding [Doc](https://getbootstrap.com/docs/4.6/layout/utilities-for-layout/#margin-and-padding)	|
+|   **w-***	|   Ancho en **%** de *1 a 100*	|
+|   **col-lg-12**	|   *12* columnas de ancho max de *992px*	|
+|   **justify-content-***	|   Alinea **horizontalmente**: **start, end, center, between, around**	|
+|   **align-items-***	|   Alinea **verticalmente**: **start, end, center, between, around**	|
+|   **align-self-start**	|   Alinea un *elemento* **verticalmente**: **start, end, center, between, around**	|
+|   	|   	|
+|   	|   	|
 |   	|   	|
 |   	|   	|
 |   	|   	|
