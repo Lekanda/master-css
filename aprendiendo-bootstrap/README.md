@@ -28,7 +28,7 @@
 |   	|   	|
 
 
-## Ancho automatico
+<h2 class="subtitulo">Ancho automatico</h2>
 
 - Hay que meter en cada **fila** en un *div* con clase **row**.   
 - *Para ajustar los elementos*, poner **col** para ajuste automatico.   
