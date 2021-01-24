@@ -1,5 +1,4 @@
 <link href="style.css" rel="stylesheet"></link>
----
 
 ## Detalles Generales
 
@@ -23,7 +22,7 @@
 |   **align-self-start**	|   Alinea un *elemento* **verticalmente**: **start, end, center, between, around**	|
 |   **order-**	|   Indica el orden:*1,2,3...*.Poner en todos	|
 |   **offset**	|   Mete espacios en columnas. Info abajo.	|
-|   	|   	|
+|   **container-fluid**	|   Expande la caja al 100% de la pantalla.	|
 |   	|   	|
 |   	|   	|
 
@@ -101,3 +100,10 @@
 
 > Se debe poner en el elemento de la **drch** *donde se quiere poner el espacio*.    
 
+
+
+## Responsive en Bootstrap
+
+- [Doc de Responsive Breakpoints](https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpoints)   
+
+- 
