@@ -20,7 +20,7 @@
 |   **justify-content-***	|   Alinea **horizontalmente**: **start, end, center, between, around**	|
 |   **align-items-***	|   Alinea **verticalmente**: **start, end, center, between, around**	|
 |   **align-self-start**	|   Alinea un *elemento* **verticalmente**: **start, end, center, between, around**	|
-|   	|   	|
+|   **order-**	|   Indica el orden:*1,2,3...*.Poner en todos	|
 |   	|   	|
 |   	|   	|
 |   	|   	|
