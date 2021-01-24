@@ -10,7 +10,8 @@
 ---
 
 ## Clases de BootStrap 4
-> __Sustituir el *__ 
+> __Sustituir el *__    
+
 |   **Clase**	|   **Explicacion**	|
 |---	|---	|
 |   **bg-***	|   Color de fondo de caja [Doc](https://getbootstrap.com/docs/4.6/utilities/colors/#background-color)	|
