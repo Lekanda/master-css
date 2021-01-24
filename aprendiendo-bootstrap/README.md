@@ -1,4 +1,4 @@
-(setq markdown-css-paths '("style.css"))
+<link href="style.css" rel="stylesheet"></link>
 ---
 
 ## Detalles Generales
