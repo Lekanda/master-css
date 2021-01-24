@@ -106,4 +106,12 @@
 
 - [Doc de Responsive Breakpoints](https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpoints)   
 
-- 
+- *Ejemplos*:
+```html
+    <li class="col-xs-12 col-sm-12 col-md">Inicio</li>
+
+    <div class="item col col-lg col-md-12 col-sm-12 bg-primary">
+        Producto
+    </div>
+```   
+
