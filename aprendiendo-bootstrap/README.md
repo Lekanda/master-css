@@ -9,14 +9,14 @@
 > **Tabla de tamaños fijos en BootStrap**   
 ---
 
-## Comandos de BootStrap 4
+## Clases de BootStrap 4
 
-|   **Comando**	|   **Utilidad**	|
+|   **Clase**	|   **Explicacion**	|
 |---	|---	|
-|   bg-*	|   Color de fondo de caja [Documentacion](https://getbootstrap.com/docs/4.6/utilities/colors/#background-color)	|
-|   	|   	|
-|   	|   	|
-|   	|   	|
+|   bg-*	|   Color de fondo de caja [Doc](https://getbootstrap.com/docs/4.6/utilities/colors/#background-color)	|
+|   p-*	|   padding [Doc](https://getbootstrap.com/docs/4.6/layout/utilities-for-layout/#margin-and-padding)	|
+|   w-*	|   Ancho en **%** de *1 a 100*	|
+|   col-lg-12	|   *12* columnas de ancho max de *992px*	|
 |   	|   	|
 |   	|   	|
 |   	|   	|
