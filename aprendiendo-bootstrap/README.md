@@ -138,3 +138,21 @@
 ```html
     <nav id="menu" class="col-12 bg-secondary text-white d-none d-sm-none d-md-block">
 ```
+---
+
+## Utilidades de Bootstrap.
+
+### Anchura y Altura
+
+- **Anchura y Altura:**   
+```html 
+    <!-- Anchura 25 % -->
+    <div class="caja w-25"></div>
+
+
+    <!-- Altura 25 % -->
+    <div class="container" style="height: 500px;">
+        <div class="caja w-25 h-25">fsdsdf</div>
+    </div>
+```   
+> Para que la **Altura** funcione hay que *meter la caja* en *otra caja* con una *altura dada*.
