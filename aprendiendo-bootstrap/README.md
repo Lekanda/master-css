@@ -113,5 +113,28 @@
     <div class="item col col-lg col-md-12 col-sm-12 bg-primary">
         Producto
     </div>
+
+    <aside id="barra" class="col-3 border d-none d-sm-none d-md-block">
 ```   
 
+- *Puntos de corte.*   
+```css
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+```   
+
+```html
+    <nav id="menu" class="col-12 bg-secondary text-white d-none d-sm-none d-md-block">
+```
