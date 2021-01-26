@@ -247,7 +247,11 @@
 ```
 
 ### Sombras
-
+ 
+- **sm**, **lg** , **por defecto (shadow)** y *sin sombra* (**shadow-none**)
+```html
+    <div class="shadow-sm">Caja 3</div>
+```
 
 ### Visibilidad
 
