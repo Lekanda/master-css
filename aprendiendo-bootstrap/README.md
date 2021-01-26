@@ -179,7 +179,18 @@
 
 ```   
 
+### Flotados en Bootstrap
+- Se configura con la clase:
 
+```html
+    <!-- Igual con Right -->
+    <div class="float-left caja w-25 h-25 border border-warning rounded-0">Caja 1</div>
+    <!-- Clase Clearfix en Bootstrap -->
+    <div class="clearfix"></div>
+    <!-- Se puede hacer flotados para viewport o puntos de corte de la resolucion de pantalla. A PARTIR DE SM ME QUITA EL FLOTADO. POR ABAJO-->
+    <div class="float-left float-sm-none caja w-25 h-25 border border-success rounded-0">Caja 3</div>
+
+```   
 
 
 
