@@ -255,6 +255,12 @@
 
 ### Visibilidad
 
+- *Oculta la caja* ; pero, **sigue estando**.    
+
+```html
+    <div class="invisible">Caja 3</div>
+```   
+> *Con visible se ve*    
 
 ### Textos
 
