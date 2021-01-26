@@ -145,6 +145,8 @@
 
 ## Utilidades de Bootstrap.
 
+> [Doc de BOOTSTRAP 4](https://getbootstrap.com/docs/4.0/utilities/borders/)
+
 ### Anchura y Altura
 
 - **Anchura y Altura:**   
@@ -263,6 +265,17 @@
 > *Con visible se ve*    
 
 ### Textos
+
+- **Clases** para *texto* de *Bootstrap*
+|   **Clase**	|   **Funcion**	|
+|---	|---	|
+|   **display**	|   **Aumenta** tamaño fuente.(1 al 4).	|
+|   **font-weight-bold**	|   **Grosor** de la fuente.**(light, italic, small)**	|
+|   **text-center**	|   **Centra** _txt_ en la caja. (**right, left**)	|
+|   **text-decoration-none**	|   **Quita** los puntos en los *enlaces*	|
+|   **text-uppercase**    |   Cambia *txt* a **Mayusculas**.  (**lowercase**)   |
+
+
 
 
 ### Mostrar codigo
