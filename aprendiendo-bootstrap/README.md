@@ -14,6 +14,7 @@
 |   **Clase**	|   **Explicacion**	|
 |---	|---	|
 |   **bg-***	|   Color de fondo de caja [Doc](https://getbootstrap.com/docs/4.6/utilities/colors/#background-color)	|
+|   **text-primary**	|   Color de texto.[Colores](https://getbootstrap.com/docs/4.0/utilities/colors/#color)	|
 |   **p-***	|   padding [Doc](https://getbootstrap.com/docs/4.6/layout/utilities-for-layout/#margin-and-padding)	|
 |   **w-***	|   Ancho en **%** de *1 a 100*	|
 |   **col-lg-12**	|   *12* columnas de ancho max de *992px*	|
@@ -22,8 +23,10 @@
 |   **align-self-start**	|   Alinea un *elemento* **verticalmente**: **start, end, center, between, around**	|
 |   **order-**	|   Indica el orden:*1,2,3...*.Poner en todos	|
 |   **offset**	|   Mete espacios en columnas. Info abajo.	|
-|   **container-fluid**	|   Expande la caja al 100% de la pantalla.	|
-|   **border**	|   Crea un borde	|
+|   **container-fluid**	|   **Expande** la caja al *100% de la pantalla*.	|
+|   **border**	|   Crea un **borde**	|
+|   **m-***	|   **Margin**: de **0 a 5** o **auto**.Cada numero son **4px**.	|
+|   	|   	|
 |   	|   	|
 
 
@@ -194,7 +197,7 @@
 
 ### Colores y fondos
 
-- *Se usan las clases:*
+- *Se usan las clases:*   
 
 ```html
     <!-- Color de fondo -->
@@ -216,6 +219,33 @@
     <p><a href="#" class="text-dark">Dark link</a></p>
     <p><a href="#" class="text-muted">Muted link</a></p>
     <p><a href="#" class="text-white bg-dark">White link</a></p>
-```   
+```    
+
+
+### Margenes y Paddings
+
+- Para el **margin(m, mt, mb, ml, mr, mx, my)**:   
+
+```html
+    <div class="m-2 bg-primary text-secondary">Caja 1</div>
+```
+> **Cada numero de margin son 4 pixeles.**    
+
+> **mx y my** son los ejes **y** y **x**.
+>    *El X mete margenes a izquierda y derecha.*   
+>    *El Y mete margenes a arriba y abajo.*    
+
+
+- **Padding** igual que Margin.**padding p, pt, pb, pl, pr, px, py)**
+
+> *Para utilizar valores negativos poner*: **m-n2**   
+
+- La clase **mx-auto** centra en la pantalla. (**Lo mismo con Y - mx-auto**)   
+```html
+    <!-- centra en la pantalla -->
+    <div class="mx-auto m-2 text-light p-5 bg-success caja ">Caja 3</div>
+```
+
+
 
 ---
