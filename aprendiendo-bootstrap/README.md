@@ -266,7 +266,8 @@
 
 ### Textos
 
-- **Clases** para *texto* de *Bootstrap*
+- **Clases** para *texto* de *Bootstrap*.    
+
 |   **Clase**	|   **Funcion**	|
 |---	|---	|
 |   **display**	|   **Aumenta** tamaño fuente.(1 al 4).	|
