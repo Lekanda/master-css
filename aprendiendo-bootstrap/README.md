@@ -23,7 +23,7 @@
 |   **order-**	|   Indica el orden:*1,2,3...*.Poner en todos	|
 |   **offset**	|   Mete espacios en columnas. Info abajo.	|
 |   **container-fluid**	|   Expande la caja al 100% de la pantalla.	|
-|   	|   	|
+|   **border**	|   Crea un borde	|
 |   	|   	|
 
 
@@ -155,4 +155,34 @@
         <div class="caja w-25 h-25">fsdsdf</div>
     </div>
 ```   
-> Para que la **Altura** funcione hay que *meter la caja* en *otra caja* con una *altura dada*.
+> Para que la **Altura** funcione hay que *meter la caja* en *otra caja* con una *altura dada*.   
+
+### Bordes
+
+- Se pone como una clase de BOOTSTRAP
+```html
+    <div class="border">fsdsdf</div>
+    <!-- Color del border -->
+    <div class="border border-warning">fsdsdf</div>
+    <!-- border radius(ROUNDED) -->
+    <div class="border border-warning rounded">fsdsdf</div>
+    <!-- Border radius solo arriba -->
+    <div class="border border-warning rounded-top">fsdsdf</div>
+    <!-- Border radius solo abajo -->
+    <div class="border border-warning rounded-bottom">fsdsdf</div>
+    <!-- IGUAL CON LEFT Y RIGHT -->
+    <!-- Sin border Radius -->
+    <div class="border border-warning rounded-0">fsdsdf</div>
+
+    <!-- Crea un circulo -->
+    <div class="border border-warning rounded-circle">fsdsdf</div>
+
+```   
+
+
+
+
+
+
+
+---
