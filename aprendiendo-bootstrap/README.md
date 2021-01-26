@@ -246,6 +246,16 @@
     <div class="mx-auto m-2 text-light p-5 bg-success caja ">Caja 3</div>
 ```
 
+### Sombras
+
+
+### Visibilidad
+
+
+### Textos
+
+
+### Mostrar codigo
 
 
 ---
