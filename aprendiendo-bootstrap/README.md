@@ -275,10 +275,25 @@
 |   **text-decoration-none**	|   **Quita** los puntos en los *enlaces*	|
 |   **text-uppercase**    |   Cambia *txt* a **Mayusculas**.  (**lowercase**)   |
 
-
-
-
 ### Mostrar codigo
 
+- Para poder poner **codigo fuente** en el Dom.
+
+```html
+    <code>
+            https://www.google.com
+    </code>
+
+    <code>
+        <pre>
+            if($hola == "mundo"){
+                echo "hola mundo";
+            }
+        </pre>
+    </code>
+    <kbd>
+        Control+D para volver
+    </kbd>
+```
 
 ---
