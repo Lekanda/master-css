@@ -465,7 +465,8 @@
 
 ### Tarjetas
 
-- 
+- Utilizamos una imagen desde la web.   
+- Configuracion para una tarjeta.   
 
 ```html
     <div class="row col-md-8">
@@ -480,6 +481,38 @@
         </div>
     </div>
 ```
+
+
+### Botones
+
+- Se usa la clase **btn**. Mas en [doc](https://getbootstrap.com/docs/4.6/components/buttons/#examples)
+```html
+    <a href="#" class="btn btn-success">Entrar</a>
+
+    <button type="button" class="btn btn-primary">Primary</button>
+
+
+    <a class="btn btn-primary" href="#" role="button">Link</a>
+    <button class="btn btn-primary" type="submit">Button</button>
+    <input class="btn btn-primary" type="button" value="Input">
+    <input class="btn btn-primary" type="submit" value="Submit">
+    <input class="btn btn-primary" type="reset" value="Reset">
+
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+
+
+    <button type="button" class="btn btn-primary btn-lg">Large button</button>
+    <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+
+    <button type="button" class="btn btn-primary btn-sm">Small button</button>
+    <button type="button" class="btn btn-secondary btn-sm">Small button</button> 
+    
+    
+    <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+    <button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
+
+```   
 
 
 
