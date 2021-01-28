@@ -452,7 +452,7 @@
 ```html
     <h2>
         <span class="badge badge-success">NUEVO</span>
-            Componentes de Bootstrap
+        Componentes de Bootstrap
     </h2>
     <p>
         Este es el txt del articulo.
@@ -466,6 +466,20 @@
 ### Tarjetas
 
 - 
+
+```html
+    <div class="row col-md-8">
+        <div class="card col p-0 mr-3">
+            <img class="card-img-top img-fluid " src="https://via.placeholder.com/300x200">
+            <div class="cad-body">
+                    <h3 class="card-title">Tarjeta 1</h3>
+                    <p class="card-text">
+                        Hola mira el articulo y veras ....
+                    </p>
+            </div>
+        </div>
+    </div>
+```
 
 
 
