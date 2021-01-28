@@ -430,9 +430,20 @@
     <!-- fade show => Hace una transicion. -->
 ```     
 
+### Migas de pan
 
+- Indica la ruta de la pagina en que se esta.
+```html
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+            <li class="breadcrumb-item"><a href="#">Desarrollo Web</a></li>
+            <li class="breadcrumb-item"><a href="#">Componentes de Bootstrap</a></li>
+        </ol>
+    </nav>
+```     
 
-
+- **aria-label**: Indica que finalidad tiene el elemento.
 
 
 
