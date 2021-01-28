@@ -354,6 +354,10 @@
                       </form>
                     </div>
             </nav>    
+
+            <!-- No olvidar poner esto al final del body -->
+            <script type="text/javascript" src="jquery/jquery-3.5.1.min.js"></script>
+            <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 ```    
 
 #### Clases para la barra de Navegacion
@@ -363,7 +367,70 @@
 3. **navbar-toggler**: Al *reducir* pantalla se crea *menu* de **3 barras**.   
 
 
-## Alertas
+
+
+### Alertas
+
+- *Colores de las alertas.*
+
+```html
+    <div class="alert alert-primary" role="alert">
+    A simple primary alert—check it out!
+    </div>
+    <div class="alert alert-secondary" role="alert">
+    A simple secondary alert—check it out!
+    </div>
+    <div class="alert alert-success" role="alert">
+    A simple success alert—check it out!
+    </div>
+    <div class="alert alert-danger" role="alert">
+    A simple danger alert—check it out!
+    </div>
+    <div class="alert alert-warning" role="alert">
+    A simple warning alert—check it out!
+    </div>
+    <div class="alert alert-info" role="alert">
+    A simple info alert—check it out!
+    </div>
+    <div class="alert alert-light" role="alert">
+    A simple light alert—check it out!
+    </div>
+    <div class="alert alert-dark" role="alert">
+    A simple dark alert—check it out!
+    </div>
+```   
+
+- *Boton para cerrar alerta.*
+
+```html
+    <div class="row">
+        <div class="col-md-8 mt-5">
+            <div class="alert alert-danger alert-dismissible">
+                <strong><p>Alerta de prueba</p></strong>
+
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tambien -->
+    <div class="row">
+        <div class="col-md-8 mt-5">
+            <div class="alert alert-danger alert-dismissible fade show">
+                <strong><p>Alerta de prueba</p></strong>
+
+                <button type="button" class="close" data-dismiss="alert">
+                    <span>&times;</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- fade show => Hace una transicion. -->
+```     
+
+
 
 
 
