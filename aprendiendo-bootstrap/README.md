@@ -443,7 +443,29 @@
     </nav>
 ```     
 
-- **aria-label**: Indica que finalidad tiene el elemento.
+- **aria-label**: Indica que finalidad tiene el elemento.    
+
+
+### Badgets
+
+- Un pequeño recuadro para resaltar un mensaje.
+```html
+    <h2>
+        <span class="badge badge-success">NUEVO</span>
+            Componentes de Bootstrap
+    </h2>
+    <p>
+        Este es el txt del articulo.
+        <a class="badge badge-warning badge-pill">Articulo Nuevo</a>
+    </p>        
+```    
+
+- **badge-pill**: *Redondea las esquinas.*   
+
+
+### Tarjetas
+
+- 
 
 
 
