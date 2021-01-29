@@ -527,21 +527,21 @@
     </ol>
 
     <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item active" data-interval="10000">
             <img class="d-block w-100" src="https://www.nationalgeographic.com.es/medio/2020/04/15/monte-everest-8848-metros_5ff32b28_1262x831.jpg">
             <div class="carousel-caption d-none d-md-block">
                     <h5>Los Alpes</h5>
                     <p>Some representative placeholder content for the first slide.</p>
                 </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-interval="10000">
             <img class="d-block w-100" src="https://cdn.biogcom/embed/9be5adea5110d6fe80bec835b91556812511/Everjpg?imagick=1&size=1250">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Los Andes</h5>
                 <p>Some representative placeholder content for first slide.</p>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-interval="10000">
             <img class="d-block w-100" src="https://bsoltekonline.com/content/images/size/w2000/2019adventure-climb-daylight-673018.jpg">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Los Himalayas</h5>
@@ -558,6 +558,15 @@
         <span class="sr-only">Siguiente</span>
     </a>
 </div>
+```    
+
+
+### Jumbotron
+
+- 
+
+```html
+
 ```
 
 
