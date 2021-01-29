@@ -563,11 +563,25 @@
 
 ### Jumbotron
 
-- 
+- Es una caja para informacion rapida.    
+- Ejemplo de Jumbotron.    
 
 ```html
+<div class="col-md-4">
+    <div class="jumbotron my-3">
+        <h1 class="display-6">Bienvenido a mi WEB</h1>
+        <p class="lead">Esto es un JumboTron en Bootstrap</p>
+        <hr class="my-2">
+        <p>Identificate en la WEB</p>
+        <a href="#" class="btn btn-primary btn-lg">Login</a>
+    </div>
+</div>
+```    
 
-```
+
+### Modal, Pop-ups y ventanas emergentes
+
+- 
 
 
 

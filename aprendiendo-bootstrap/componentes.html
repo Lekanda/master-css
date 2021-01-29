@@ -151,20 +151,46 @@
                 </p>
             </div>
 
+
+
             <div class="col-md-4">
-                <div class="jumbotron my-3">
-                    <h1 class="display-6">Bienvenido a mi WEB</h1>
-                    <p class="lead">Esto es un JumboTron en Bootstrap</p>
-                    <hr class="my-2">
-                    <p>Identificate en la WEB</p>
-                    <a href="#" class="btn btn-primary btn-lg">Login</a>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#exampleModal">
+                    Sacar ventana
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">¿Estas seguro?</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Una vez hecho no hay recuperacion.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-primary">Guardar</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                    <div class="jumbotron my-3">
+                        <h1 class="display-6">Bienvenido a mi WEB</h1>
+                        <p class="lead">Esto es un JumboTron en Bootstrap</p>
+                        <hr class="my-2">
+                        <p>Identificate en la WEB</p>
+                        <a href="#" class="btn btn-primary btn-lg">Login</a>
+                    </div>
             </div>
 
 
-
-
-
+            
 
 
         </div>
