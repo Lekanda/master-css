@@ -581,7 +581,81 @@
 
 ### Modal, Pop-ups y ventanas emergentes
 
-- 
+- Un Modal es una ventana que te permite hacer en ella y con ella muchas opciones.   
+```html
+<div class="col-md-4">
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary mt-3" data-toggle="modal" data-target="#exampleModal">
+                    Sacar ventana
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">¿Estas seguro?</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Una vez hecho no hay recuperacion.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-primary">Guardar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+```   
+
+
+
+### Paginacion
+
+- Links de paginacion de Bootstrap.
+
+```html
+    <nav aria-label="pagination">
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link" href="#">
+                    &laquo;
+                </a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">
+                    1
+                </a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">
+                    2
+                </a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">
+                    3
+                </a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">
+                    4
+                </a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">
+                    &raquo;
+                </a>
+            </li>
+        </ul>
+    </nav>
+```
 
 
 
