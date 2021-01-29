@@ -515,7 +515,50 @@
 ```   
 
 
+### Slider/Galeria
 
+```html
+<div id="slider" class="carousel slide mb-3" data-ride="carousel">
+
+    <ol class="carousel-indicators">
+        <li data-target="#slider" data-slide-to=class="active"></li>
+        <li data-target="#slider" data-slide-to="1"></li>
+        <li data-target="#slider" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="https://www.nationalgeographic.com.es/medio/2020/04/15/monte-everest-8848-metros_5ff32b28_1262x831.jpg">
+            <div class="carousel-caption d-none d-md-block">
+                    <h5>Los Alpes</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="https://cdn.biogcom/embed/9be5adea5110d6fe80bec835b91556812511/Everjpg?imagick=1&size=1250">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Los Andes</h5>
+                <p>Some representative placeholder content for first slide.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="https://bsoltekonline.com/content/images/size/w2000/2019adventure-climb-daylight-673018.jpg">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Los Himalayas</h5>
+                <p>Some representative placeholder content for first slide.</p>
+            </div>
+        </div>
+    </div>
+    <a href="#slider" class="carousel-control-prev" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="sr-only">Anterior</span>
+    </a>
+    <a href="#slider" class="carousel-control-next" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="sr-only">Siguiente</span>
+    </a>
+</div>
+```
 
 
 
