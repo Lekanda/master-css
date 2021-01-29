@@ -658,6 +658,21 @@
 ```
 
 
+### Collapse   
+
+- Sale una caja al presionar en el link.
+```html
+        <a class="btn btn-success mt-3" data-toggle="collapse" href="#informacion" role="button">
+                        Mostrar informacion
+        </a>
+        <div class="collapse" id="informacion">
+            <div class="card card-body">
+                Esta es la informacion oculta
+            </div>
+        </div>
+```     
+
+
 
 
 
