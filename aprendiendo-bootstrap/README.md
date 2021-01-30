@@ -673,6 +673,89 @@
 ```     
 
 
+### Barra de progreso con JavaScript
+
+- Se usa JS y HTML.
+
+```html
+<!-- Barra de progreso -->
+    <div class="progress mt-5">
+        <div id="barra-progreso" class="progress-bar bg-success w-0" role="progressbar">
+            0%
+        </div>
+    </div>
+    <script>
+        var contador=0;
+        var barra = document.querySelector("#barra-progreso")
+        setInterval(function(){
+        if (contador<100) {
+            contador++;
+            barra.style.width = contador + '%';
+            barra.innerHTML = contador + '%';
+        }
+        },500);
+    </script>
+```    
+> La barra avanza **1%** cada *500ms*.   
+
+
+
+
+### TOOLTIPS y POPOVERs
+
+1. Tooltips: Al pasar *mouse* por *encima*.    
+2. Popover: Al hacer *click* en **tooltip**.    
+
+```html
+<!-- TOOLTIPS y POPOVERs-->
+<button type="button" class="btn-tool btn btn-secondary mt-3" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+        Tooltip top
+</button>
+
+<button type="button" class="btn-tool btn btn-info mt-3" data-toggle="tooltip" data-placement="left" title="Tooltip on left">
+        Tooltip left
+</button>
+
+<button type="button" class="btn-tool btn btn-info mt-3" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
+        Tooltip right
+</button>
+
+<button type="button" class="btn-tool btn btn-info mt-3" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
+        Tooltip bot
+</button>
+
+<button type="button" class="btn-pop btn btn-warning mt-3" data-container="body" data-toggle="popover" data-placement="right" data-content="Popover Right">
+        Popover Right
+</button>
+
+<button type="button" class="btn-pop btn btn-warning mt-3" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Popover bottom">
+        Popover Bottom
+</button>
+
+
+
+<!-- Hay que cargar el popper.min.js para que los mensajes salgan en la posicion que le ponemos. -->
+<script type="text/javascript" src="jquery/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="jquery/popper.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.btn-tool').tooltip();
+            $('.btn-pop').popover();
+        });
+</script>
+
+
+
+
+
+
+```     
+
+
+
+
+
 
 
 
