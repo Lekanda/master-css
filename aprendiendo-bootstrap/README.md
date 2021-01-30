@@ -746,16 +746,50 @@
 </script>
 
 
-
-
-
-
 ```     
 
 
 
 
+### Formularios
 
+- Estructura de un formulario con Bootstrap.
+
+```html
+<!-- FORMULARIOS -->
+<h3>Formulario</h3>
+<form action="">
+    <div class="form-group">
+        <div class="input-group">
+            <div class="input-group-preprend">
+                <span class="input-group-text rounded-0">Nombre</span>
+            </div>
+                <input type="text" class="form-control" placeholder="Nombre"/>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="">Genero</label>
+        <select class="form-control" name="" id="">
+                            <option value="Hombre">Hombre</option>
+                            <option value="Mujer">Mujer</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="">eMail</label>
+        <input type="email" class="form-control" placeholder="Email"/>
+    </div>
+
+    <div class="form-group">
+        <label for="">Password</label>
+        <input type="password" class="form-control" placeholder="Pass"/>
+    </div>
+
+    <input type="submit" class="btn btn-success" value="Enviar">
+</form>
+
+```
 
 
 
