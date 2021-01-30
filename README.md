@@ -2,6 +2,8 @@
 
 > *Fecha Inicio 18-12-2020*
 
+> *Fecha Fin 30-1-2020*
+
 ### Selectores
 |   Forma	|   Sintaxis	|
 |---	|---	|
